@@ -1,0 +1,21 @@
+
+2021-04-19 22:34:59,369 [1] [INFO ] [GameServer] ：Game Server Init
+2021-04-19 22:34:59,777 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-04-19 22:35:00,184 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2021-04-19 22:35:00,188 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落入森林
+2021-04-19 22:35:00,188 [1] [ERROR] [GameServer] ：刷怪规则【1】  刷怪点【0】不存在！！！
+2021-04-19 22:35:00,189 [1] [ERROR] [GameServer] ：刷怪规则【2】  刷怪点【0】不存在！！！
+2021-04-19 22:35:00,189 [1] [ERROR] [GameServer] ：刷怪规则【3】  刷怪点【0】不存在！！！
+2021-04-19 22:35:00,189 [1] [ERROR] [GameServer] ：刷怪规则【4】  刷怪点【0】不存在！！！
+2021-04-19 22:35:00,189 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3: 落日森林
+2021-04-19 22:35:00,189 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4: 落日空间
+2021-04-19 22:35:00,191 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-04-19 22:35:00,229 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-04-19 22:35:00,229 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-04-19 22:35:00,229 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-04-19 22:35:00,230 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-04-19 22:35:00,273 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-04-19 22:35:00,274 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-04-19 22:35:01,222 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-04-19 22:35:02,222 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-04-19 22:35:02,301 [1] [WARN ] [GameServer] ：NetService Started

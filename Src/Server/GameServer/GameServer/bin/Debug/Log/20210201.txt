@@ -1,0 +1,164 @@
+
+2021-02-01 12:22:24,075 [1] [INFO ] [GameServer] ：Game Server Init
+2021-02-01 12:22:24,465 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-02-01 12:22:24,658 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2021-02-01 12:22:24,661 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2021-02-01 12:22:24,661 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2021-02-01 12:22:24,661 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2021-02-01 12:22:24,661 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-02-01 12:22:24,733 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-02-01 12:22:24,737 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-02-01 12:22:24,749 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-02-01 12:22:24,749 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-02-01 12:22:24,749 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-02-01 12:22:24,751 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-02-01 12:22:26,174 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-02-01 12:22:27,174 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-02-01 12:22:27,214 [1] [WARN ] [GameServer] ：NetService Started
+2021-02-01 12:22:56,629 [3] [WARN ] [GameServer] ：Client[127.0.0.1:3964]] Connected
+2021-02-01 12:22:56,688 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2021-02-01 12:22:56,782 [5] [INFO ] [GameServer] ：UserLoginRequest: User:123  Pass:123
+2021-02-01 12:23:02,098 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-02-01 12:23:02,102 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:士 Map:1
+2021-02-01 12:23:02,107 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2021-02-01 12:23:17,186 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-02-01 12:24:55,076 [1] [INFO ] [GameServer] ：Game Server Init
+2021-02-01 12:24:55,414 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-02-01 12:24:55,570 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2021-02-01 12:24:55,572 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2021-02-01 12:24:55,572 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2021-02-01 12:24:55,572 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2021-02-01 12:24:55,573 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-02-01 12:24:55,599 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-02-01 12:24:55,601 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-02-01 12:24:55,605 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-02-01 12:24:55,612 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-02-01 12:24:55,614 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-02-01 12:24:55,614 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-02-01 12:24:56,541 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-02-01 12:24:57,541 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-02-01 12:24:57,581 [1] [WARN ] [GameServer] ：NetService Started
+2021-02-01 12:25:07,808 [3] [WARN ] [GameServer] ：Client[127.0.0.1:4057]] Connected
+2021-02-01 12:25:07,865 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2021-02-01 12:25:07,956 [6] [INFO ] [GameServer] ：UserLoginRequest: User:123  Pass:123
+2021-02-01 12:25:12,050 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-02-01 12:25:12,053 [7] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:士 Map:1
+2021-02-01 12:25:12,057 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2021-02-01 12:25:19,813 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-02-01 12:25:19,815 [6] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2021-02-01 12:25:35,823 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-02-01 12:25:35,824 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:士 Map:1
+2021-02-01 12:25:35,824 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2021-02-01 12:26:10,435 [4] [WARN ] [GameServer] ：Client[] Disconnected
+2021-02-01 13:38:45,938 [1] [INFO ] [GameServer] ：Game Server Init
+2021-02-01 13:38:46,252 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-02-01 13:38:46,452 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2021-02-01 13:38:46,469 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2021-02-01 13:38:46,470 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2021-02-01 13:38:46,471 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2021-02-01 13:38:46,472 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-02-01 13:38:46,601 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-02-01 13:38:46,689 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-02-01 13:38:46,762 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-02-01 13:38:46,762 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-02-01 13:38:46,780 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-02-01 13:38:46,784 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-02-01 13:38:48,059 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-02-01 13:38:49,059 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-02-01 13:38:49,089 [1] [WARN ] [GameServer] ：NetService Started
+2021-02-01 13:39:12,596 [3] [WARN ] [GameServer] ：Client[127.0.0.1:5483]] Connected
+2021-02-01 13:39:12,657 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2021-02-01 13:39:12,743 [5] [INFO ] [GameServer] ：UserLoginRequest: User:123  Pass:123
+2021-02-01 13:39:16,641 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-02-01 13:39:16,644 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:士 Map:1
+2021-02-01 13:39:16,648 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2021-02-01 13:39:21,352 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-02-01 13:39:21,356 [7] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2021-02-01 13:39:25,420 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-02-01 13:39:25,421 [8] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:3:123 Map:1
+2021-02-01 13:39:25,421 [8] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2021-02-01 13:39:31,277 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2021-02-01 13:42:25,190 [1] [INFO ] [GameServer] ：Game Server Init
+2021-02-01 13:42:25,542 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-02-01 13:42:25,730 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2021-02-01 13:42:25,745 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2021-02-01 13:42:25,753 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2021-02-01 13:42:25,753 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2021-02-01 13:42:25,754 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-02-01 13:42:25,813 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-02-01 13:42:25,819 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-02-01 13:42:25,829 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-02-01 13:42:25,829 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-02-01 13:42:25,830 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-02-01 13:42:25,831 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-02-01 13:42:26,772 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-02-01 13:42:27,772 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-02-01 13:42:27,871 [1] [WARN ] [GameServer] ：NetService Started
+2021-02-01 13:43:00,757 [3] [WARN ] [GameServer] ：Client[127.0.0.1:5581]] Connected
+2021-02-01 13:43:00,817 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-02-01 13:43:00,905 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:1234  Pass:1234
+2021-02-01 13:43:11,221 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:20
+2021-02-01 13:43:11,225 [6] [INFO ] [GameServer] ：UserLoginRequest: User:1234  Pass:1234
+2021-02-01 13:43:22,260 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2021-02-01 13:43:34,612 [3] [WARN ] [GameServer] ：Client[127.0.0.1:5605]] Connected
+2021-02-01 13:43:34,674 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-02-01 13:43:34,675 [5] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-02-01 13:43:40,717 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2021-02-01 13:43:59,169 [13] [WARN ] [GameServer] ：Client[127.0.0.1:5628]] Connected
+2021-02-01 13:43:59,241 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-02-01 13:43:59,241 [5] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-02-01 13:44:06,984 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2021-02-01 13:44:06,988 [5] [INFO ] [GameServer] ：UserCreatCharacterRequest: 角色名字:123  角色类型:Warrior
+2021-02-01 13:44:10,003 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-02-01 13:44:10,006 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:5:123 Map:1
+2021-02-01 13:44:10,012 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2021-02-01 13:44:19,484 [13] [WARN ] [GameServer] ：Client[127.0.0.1:5647]] Connected
+2021-02-01 13:44:19,536 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2021-02-01 13:44:19,537 [7] [INFO ] [GameServer] ：UserLoginRequest: User:123  Pass:123
+2021-02-01 13:44:21,441 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-02-01 13:44:21,442 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:士 Map:1
+2021-02-01 13:44:21,443 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:2
+2021-02-01 13:44:25,009 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-02-01 13:44:25,011 [6] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:2
+2021-02-01 13:44:39,581 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-02-01 13:44:39,582 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:士 Map:1
+2021-02-01 13:44:39,583 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:3
+2021-02-01 13:44:39,863 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-02-01 13:44:39,864 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:士 Map:1
+2021-02-01 13:44:39,865 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:4
+2021-02-01 13:44:41,514 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-02-01 13:44:41,515 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:士 Map:1
+2021-02-01 13:44:41,516 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:5
+2021-02-01 13:44:41,765 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-02-01 13:44:41,765 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:士 Map:1
+2021-02-01 13:44:41,766 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:6
+2021-02-01 13:44:41,965 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-02-01 13:44:41,965 [7] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:士 Map:1
+2021-02-01 13:44:41,966 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:7
+2021-02-01 13:44:42,165 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-02-01 13:44:42,166 [8] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:2:士 Map:1
+2021-02-01 13:44:42,166 [8] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:8
+2021-02-01 13:44:49,808 [17] [WARN ] [GameServer] ：Client[] Disconnected
+2021-02-01 13:44:52,408 [17] [WARN ] [GameServer] ：Client[] Disconnected
+2021-02-01 13:45:02,250 [17] [WARN ] [GameServer] ：Client[127.0.0.1:5671]] Connected
+2021-02-01 13:45:02,323 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-02-01 13:45:02,324 [5] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-02-01 13:45:04,533 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-02-01 13:45:04,534 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:5:123 Map:1
+2021-02-01 13:45:04,534 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:9
+2021-02-01 13:45:20,684 [17] [WARN ] [GameServer] ：Client[] Disconnected
+2021-02-01 13:45:33,744 [17] [WARN ] [GameServer] ：Client[127.0.0.1:5679]] Connected
+2021-02-01 13:45:33,808 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-02-01 13:45:33,809 [5] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-02-01 13:45:36,566 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-02-01 13:45:36,567 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:5:123 Map:1
+2021-02-01 13:45:36,568 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:10
+2021-02-01 13:45:55,615 [19] [WARN ] [GameServer] ：Client[127.0.0.1:5692]] Connected
+2021-02-01 13:45:55,667 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2021-02-01 13:45:55,668 [5] [INFO ] [GameServer] ：UserLoginRequest: User:123  Pass:123
+2021-02-01 13:45:59,707 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-02-01 13:45:59,708 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:1:士 Map:1
+2021-02-01 13:45:59,709 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:11
+2021-02-01 13:46:26,077 [20] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-02-01 13:46:26,077 [5] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:5
+2021-02-01 13:46:28,141 [22] [WARN ] [GameServer] ：Client[] Disconnected

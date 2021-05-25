@@ -1,0 +1,5 @@
+
+2021-03-10 22:19:28,623 [1] [INFO ] [GameServer] £ºGame Server Init
+2021-03-10 22:19:29,135 [1] [INFO ] [GameServer] £ºDataManager > DataManager()
+2021-03-10 22:20:30,487 [1] [INFO ] [GameServer] £ºGame Server Init
+2021-03-10 22:20:30,663 [1] [INFO ] [GameServer] £ºDataManager > DataManager()
