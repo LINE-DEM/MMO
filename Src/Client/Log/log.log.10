@@ -1,0 +1,69 @@
+2021-03-03 20:25:28,729 [ 1] INFO  Unity: LoadingManager start
+2021-03-03 20:25:33,765 [ 1] INFO  Unity: UserLoginRequest::user :123 psw:123
+2021-03-03 20:25:33,766 [ 1] INFO  Unity: ConnectToServer() Start 
+2021-03-03 20:25:33,771 [ 1] INFO  Unity: DoConnect
+2021-03-03 20:25:33,773 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2021-03-03 20:25:33,778 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+
+2021-03-03 20:25:33,782 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2021-03-03 20:25:33,885 [ 1] INFO  Unity: OnUserLogin:Result:Success Errormsg:[None]
+2021-03-03 20:25:33,887 [ 1] INFO  Unity: LoadLevel: CharSelect
+2021-03-03 20:25:34,098 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-03-03 20:25:34,107 [ 1] INFO  Unity: DataManager > DataManager()
+2021-03-03 20:25:34,246 [ 1] INFO  Unity: Select Char:[1]123[Warrior]
+2021-03-03 20:25:35,114 [ 1] INFO  Unity: 0
+2021-03-03 20:25:35,115 [ 1] INFO  Unity: UserGameEnterRequest::characterId :0
+2021-03-03 20:25:35,132 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2021-03-03 20:25:35,134 [ 1] WARN  Unity: You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
+UnityEngine.MonoBehaviour:.ctor()
+Item:.ctor(NItemInfo) (at Assets/Scripts/Models/Item.cs:12)
+ItemManager:Init(List`1) (at Assets/Scripts/Managers/ItemManager.cs:16)
+Services.UserService:OnGameEnter(Object, UserGameEnterResponse) (at Assets/Scripts/Services/UserService.cs:236)
+Network.MessageDistributer`1:RaiseEvent(Object, UserGameEnterResponse)
+Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse)
+Network.MessageDistributer`1:Distribute()
+Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:421)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:439)
+
+2021-03-03 20:25:35,135 [ 1] INFO  Unity: 物品管理器初始化 物品id 1 数量：30
+2021-03-03 20:25:35,136 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2021-03-03 20:25:35,138 [ 1] INFO  Unity: AddCharacter:1:123 Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2021-03-03 20:25:35,140 [ 1] INFO  Unity: LoadLevel: MainCity
+2021-03-03 20:25:35,140 [ 1] INFO  Unity: OnMapCharacterEnter:
+2021-03-03 20:25:35,141 [ 1] INFO  Unity: LoadLevel: MainCity
+2021-03-03 20:25:35,694 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+
+2021-03-03 20:25:35,705 [ 1] INFO  Unity: Warrior OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-03-03 20:25:35,706 [ 1] INFO  Unity: Archer OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-03-03 20:25:35,808 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-03-03 20:25:35,812 [ 1] INFO  Unity: ???????????????????????????????????????
+2021-03-03 20:25:35,813 [ 1] INFO  Unity: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2021-03-03 20:25:36,252 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-03-03 20:25:36,253 [ 1] INFO  Unity: ???????????????????????????????????????
+2021-03-03 20:25:36,253 [ 1] INFO  Unity: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2021-03-03 20:25:36,297 [ 1] INFO  Unity: MoveBack
+2021-03-03 20:25:36,597 [ 1] INFO  Unity: Stop
+2021-03-03 20:25:36,611 [ 1] INFO  Unity: SetDirection:(98, -18, 0)
+2021-03-03 20:25:36,627 [ 1] INFO  Unity: MoveForward
+2021-03-03 20:25:36,709 [ 1] INFO  Unity: SetDirection:(94, -35, 0)
+2021-03-03 20:25:36,799 [ 1] INFO  Unity: SetDirection:(86, -51, 0)
+2021-03-03 20:25:36,896 [ 1] INFO  Unity: SetDirection:(74, -68, 0)
+2021-03-03 20:25:36,978 [ 1] INFO  Unity: SetDirection:(61, -80, 0)
+2021-03-03 20:25:37,079 [ 1] INFO  Unity: SetDirection:(43, -90, 0)
+2021-03-03 20:25:37,170 [ 1] INFO  Unity: SetDirection:(26, -96, 0)
+2021-03-03 20:25:37,263 [ 1] INFO  Unity: SetDirection:(7, -100, 0)
+2021-03-03 20:25:37,414 [ 1] INFO  Unity: SetDirection:(-11, -99, 0)
+2021-03-03 20:25:37,900 [ 1] INFO  Unity: SetDirection:(-30, -95, 0)
+2021-03-03 20:25:38,016 [ 1] INFO  Unity: SetDirection:(-49, -87, 0)
+2021-03-03 20:25:38,099 [ 1] INFO  Unity: SetDirection:(-64, -77, 0)
+2021-03-03 20:25:38,201 [ 1] INFO  Unity: SetDirection:(-78, -62, 0)
+2021-03-03 20:25:38,302 [ 1] INFO  Unity: SetDirection:(-89, -46, 0)
+2021-03-03 20:25:38,429 [ 1] INFO  Unity: SetDirection:(-96, -29, 0)
+2021-03-03 20:25:39,269 [ 1] INFO  Unity: Stop
+2021-03-03 20:25:43,750 [ 1] INFO  Unity: Character_2_123 OnDestroy :ID:2 POS:(4661, 3520, 820) DIR:(-96, -29, 0) SPD:0 
+2021-03-03 20:25:43,751 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2021-03-03 20:25:43,752 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
+Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
+

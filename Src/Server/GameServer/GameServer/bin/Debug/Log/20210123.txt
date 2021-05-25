@@ -1,0 +1,77 @@
+
+2021-01-23 17:31:47,004 [1] [INFO ] [GameServer] ：Game Server Init
+2021-01-23 17:31:47,989 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-01-23 17:31:48,132 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-01-23 17:31:48,132 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-01-23 17:31:48,132 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-01-23 17:31:48,133 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-01-23 17:31:48,136 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-01-23 17:31:48,136 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-01-23 17:31:50,019 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-01-23 17:31:51,019 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-01-23 17:31:51,060 [1] [WARN ] [GameServer] ：NetService Started
+2021-01-23 17:32:36,008 [3] [WARN ] [GameServer] ：Client[127.0.0.1:7283]] Connected
+2021-01-23 17:32:36,089 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2021-01-23 17:32:36,212 [5] [INFO ] [GameServer] ：UserLoginRequest: User:123  Pass:123
+2021-01-23 17:33:28,057 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-01-23 17:33:28,061 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:3:123 Map:1
+2021-01-23 17:33:28,134 [5] [ERROR] [GameServer] ：Message handler exception:, 给定关键字不在字典中。, mscorlib,    在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 GameServer.Managers.MapManager.get_Item(Int32 key) 位置 D:\mmorpg\WorkSpace\Src\Server\GameServer\GameServer\Managers\MapManager.cs:行号 31
+   在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 D:\mmorpg\WorkSpace\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 155
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\mmorpg\WorkSpace\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2021-01-23 17:33:28,719 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-01-23 17:33:28,720 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:3:123 Map:1
+2021-01-23 17:33:28,733 [6] [ERROR] [GameServer] ：Message handler exception:, 给定关键字不在字典中。, mscorlib,    在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 GameServer.Managers.MapManager.get_Item(Int32 key) 位置 D:\mmorpg\WorkSpace\Src\Server\GameServer\GameServer\Managers\MapManager.cs:行号 31
+   在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 D:\mmorpg\WorkSpace\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 155
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\mmorpg\WorkSpace\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2021-01-23 17:33:29,763 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-01-23 17:33:29,767 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:3:123 Map:1
+2021-01-23 17:33:29,778 [5] [ERROR] [GameServer] ：Message handler exception:, 给定关键字不在字典中。, mscorlib,    在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 GameServer.Managers.MapManager.get_Item(Int32 key) 位置 D:\mmorpg\WorkSpace\Src\Server\GameServer\GameServer\Managers\MapManager.cs:行号 31
+   在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 D:\mmorpg\WorkSpace\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 155
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\mmorpg\WorkSpace\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2021-01-23 17:36:07,361 [1] [INFO ] [GameServer] ：Game Server Init
+2021-01-23 17:36:07,807 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-01-23 17:36:08,086 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2021-01-23 17:36:08,090 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2021-01-23 17:36:08,091 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2021-01-23 17:36:08,091 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2021-01-23 17:36:08,091 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-01-23 17:36:08,145 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-01-23 17:36:08,176 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-01-23 17:36:08,229 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-01-23 17:36:08,247 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-01-23 17:36:08,261 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-01-23 17:36:08,268 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-01-23 17:36:08,846 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-01-23 17:36:09,838 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-01-23 17:36:09,882 [1] [WARN ] [GameServer] ：NetService Started
+2021-01-23 17:37:53,882 [4] [WARN ] [GameServer] ：Client[127.0.0.1:7446]] Connected
+2021-01-23 17:37:53,957 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2021-01-23 17:46:22,091 [1] [INFO ] [GameServer] ：Game Server Init
+2021-01-23 17:46:22,643 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-01-23 17:46:22,873 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2021-01-23 17:46:22,877 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2021-01-23 17:46:22,877 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2021-01-23 17:46:22,877 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2021-01-23 17:46:22,878 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-01-23 17:46:22,924 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-01-23 17:46:22,926 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-01-23 17:46:22,927 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-01-23 17:46:22,928 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-01-23 17:46:22,932 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-01-23 17:46:22,933 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-01-23 17:46:24,384 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-01-23 17:46:25,381 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-01-23 17:46:25,402 [1] [WARN ] [GameServer] ：NetService Started
+2021-01-23 17:46:36,460 [3] [WARN ] [GameServer] ：Client[127.0.0.1:7580]] Connected
+2021-01-23 17:46:36,536 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2021-01-23 17:46:36,650 [5] [INFO ] [GameServer] ：UserLoginRequest: User:123  Pass:123
+2021-01-23 17:46:43,716 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-01-23 17:46:43,719 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:3:123 Map:1
+2021-01-23 17:46:43,726 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2021-01-23 17:46:51,086 [14] [WARN ] [GameServer] ：Client[] Disconnected
