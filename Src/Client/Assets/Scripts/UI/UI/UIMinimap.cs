@@ -17,7 +17,7 @@ public class UIMinimap : MonoBehaviour {
 	void Start () {
         MinimapManager.Instance.minimap = this;
         this.UpdateMap();
-        Debug.Log("???????????????????????????????????????");
+       
     }
 
     public  void UpdateMap()
@@ -46,6 +46,7 @@ public class UIMinimap : MonoBehaviour {
 
         float relaX = playerTransform.position.x - minimapBoundingBox.bounds.min.x;
         float relaY = playerTransform.position.z - minimapBoundingBox.bounds.min.z;
+        
 
         float pivotX = relaX / realWidth;
         float pivotY = relaY / realHeight;

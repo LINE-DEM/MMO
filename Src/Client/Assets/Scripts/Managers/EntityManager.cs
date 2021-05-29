@@ -47,6 +47,7 @@ namespace Managers
 			{
 				if(data.Entity != null)
 				{
+					//给Entity赋值的时候 会同步到本地客户端坐标
 					entity.EntityData = data.Entity;
 				}
 				if (notifiers.ContainsKey(data.Id))

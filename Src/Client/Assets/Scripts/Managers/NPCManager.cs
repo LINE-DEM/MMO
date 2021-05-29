@@ -5,7 +5,9 @@ using UnityEngine;
 
 public class NPCManager : Singleton<NPCManager>{
 
+	//这个能注册的方法需要传入npc信息
 	public delegate bool NpcActionHandler(NpcDefine npc);
+	//一共就 两个委托变量 
 	Dictionary<NpcFunction, NpcActionHandler> eventMap = new Dictionary<NpcFunction, NpcActionHandler>();
 
 	public void RegisterNpcEvent(NpcFunction function, NpcActionHandler action)
@@ -16,6 +18,7 @@ public class NPCManager : Singleton<NPCManager>{
 		}
 		else
 			eventMap[function] += action;
+		//每一个委托变量都能注册很多方法
 	}
 
 	public NpcDefine GetNpcDefine(int npcID)
@@ -36,13 +39,13 @@ public class NPCManager : Singleton<NPCManager>{
 	}
 	public bool Interactive(NpcDefine npc)
 	{
-		if (npc.Type == NpcType.Functional)
+		if (DoTaskInteractive(npc))
+		{
+			return true;
+		}
+		else if(npc.Type == NpcType.Functional)
 		{
 			return DoFunctionInteractive(npc);
-		}
-		else if(npc.Type == NpcType.Task)
-		{
-			return DoTaskInteractive(npc);
 		}
 		
 		return false;
@@ -50,8 +53,12 @@ public class NPCManager : Singleton<NPCManager>{
 
 	private bool DoTaskInteractive(NpcDefine npc)
 	{
-		MessageBox.Show("点击了Npc：" + npc.Name, "是NPC对话");
-		return true;
+		var status = QuestManager.Instance.GetQuestStatusByNpc(npc.ID);
+		if (status == NpcQuestStatus.None)
+			return false;
+
+
+		return QuestManager.Instance.OpenNpcQuest(npc.ID);
 	}
 	private bool DoFunctionInteractive(NpcDefine npc)
 	{
@@ -60,6 +67,7 @@ public class NPCManager : Singleton<NPCManager>{
 			return false;
 		if (!eventMap.ContainsKey(npc.Function))
 			return false;
+		//根据这个npc的功能选择是哪个方法列表
 		return eventMap[npc.Function](npc);
 	}
 

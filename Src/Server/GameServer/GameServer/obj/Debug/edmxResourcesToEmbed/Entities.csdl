@@ -42,6 +42,11 @@
       <End Role="TCharacterFriend" EntitySet="TCharacterFriends" />
       <End Role="TCharacter" EntitySet="Characters" />
     </AssociationSet>
+    <EntitySet Name="TSkills" EntityType="ExtremeWorldModel.TSkill" />
+    <AssociationSet Name="TCharacterTSkill" Association="ExtremeWorldModel.TCharacterTSkill">
+      <End Role="TCharacter" EntitySet="Characters" />
+      <End Role="TSkill" EntitySet="TSkills" />
+    </AssociationSet>
   </EntityContainer>
   <EntityType Name="TPlayer">
     <Key>
@@ -75,6 +80,7 @@
     <Property Name="Level" Type="Int32" Nullable="false" />
     <Property Name="Exp" Type="Int64" Nullable="false" />
     <NavigationProperty Name="Friends" Relationship="ExtremeWorldModel.TCharacterFriendTCharacter" FromRole="TCharacter" ToRole="TCharacterFriend" />
+    <NavigationProperty Name="Skills" Relationship="ExtremeWorldModel.TCharacterTSkill" FromRole="TCharacter" ToRole="TSkill" />
   </EntityType>
   <Association Name="PlayerCharacter">
     <End Type="ExtremeWorldModel.TPlayer" Role="Player" Multiplicity="1" />
@@ -155,5 +161,26 @@
   <Association Name="TCharacterFriendTCharacter">
     <End Type="ExtremeWorldModel.TCharacterFriend" Role="TCharacterFriend" Multiplicity="*" />
     <End Type="ExtremeWorldModel.TCharacter" Role="TCharacter" Multiplicity="1" />
+  </Association>
+  <EntityType Name="TSkill">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Owner" Relationship="ExtremeWorldModel.TCharacterTSkill" FromRole="TSkill" ToRole="TCharacter" />
+    <Property Name="TCharacterID" Type="Int32" Nullable="false" />
+    <Property Name="Unlocked" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="TCharacterTSkill">
+    <End Type="ExtremeWorldModel.TCharacter" Role="TCharacter" Multiplicity="1" />
+    <End Type="ExtremeWorldModel.TSkill" Role="TSkill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TCharacter">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TSkill">
+        <PropertyRef Name="TCharacterID" />
+      </Dependent>
+    </ReferentialConstraint>
   </Association>
 </Schema>

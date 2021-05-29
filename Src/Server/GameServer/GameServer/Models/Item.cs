@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace GameServer.Models
 {
+    /// <summary>
+    ///  给DBItem数据 封装了一下 两个方法 可以修改DB里的数据
+    /// </summary>
     class Item
     {
         TCharacterItem dbItem;

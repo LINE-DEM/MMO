@@ -27,13 +27,13 @@ public class LoadingManager : MonoBehaviour {
         UnityLogger.Init();
         Common.Log.Init("Unity");
         Common.Log.Info("LoadingManager start");
-
+        
         UITips.SetActive(true);
         UILoading.SetActive(false);
         UILogin.SetActive(false);
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(0.1f);
         UILoading.SetActive(true);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.1f);
         UITips.SetActive(false);
 
         //yield return DataManager.Instance.LoadData();
@@ -41,7 +41,11 @@ public class LoadingManager : MonoBehaviour {
         //Init basic services
         MapService.Instance.Init();
         UserService.Instance.Init();
-        // DataManager.Instance.Load();
+        //DataManager.Instance.Load();
+
+        StatusService.Instance.Init();
+        FriendService.Instance.Init();
+        ShopManager.Instance.Init();
 
         TestManager.Instance.init();
         // Fake Loading Simulate

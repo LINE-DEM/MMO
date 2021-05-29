@@ -101,7 +101,7 @@ public class UICharacterSelect : MonoBehaviour {
                 go.SetActive(true);
             }
 
-            OnSelectCharacter(0);
+            //OnSelectCharacter(0);
         }
     }
 

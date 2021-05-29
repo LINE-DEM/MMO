@@ -13,6 +13,12 @@ namespace Entities
 
         public Common.Data.CharacterDefine Define;
 
+        //默认返回DBID
+        public int Id
+        {
+            get { return this.Info.Id; }
+        }
+
         public string Name
         {
             get
@@ -24,15 +30,24 @@ namespace Entities
             }
         }
 
+        public bool isPlayer
+        {
+            get { return this.Info.Type == CharacterType.Player; }
+        }
+
         public bool IsCurrentPlayer
         {
-            get { return this.Info.Id == Models.User.Instance.CurrentCharacter.Id; }
+            get
+            {
+                if (!isPlayer) return false;
+                return this.Id == Models.User.Instance.CurrentCharacter.Id;
+            }
         }
 
         public Character(NCharacterInfo info) : base(info.Entity)
         {
             this.Info = info;
-            this.Define = DataManager.Instance.Characters[info.Tid];
+            this.Define = DataManager.Instance.Characters[info.ConfigId];
         }
 
         public void MoveForward()

@@ -37,7 +37,7 @@ namespace GameServer.Managers
             //现在才有的entityid
             EntityManager.Instance.AddEntity(cha.MapID, character);
             //加到网络传输对象里 就只需要传输info类型
-            character.Info.Entity.Id = character.entityId;
+            character.Info.EntityId = character.entityId;
             this.Characters[character.Id] = character;
             return character;
         }
@@ -51,6 +51,13 @@ namespace GameServer.Managers
                 EntityManager.Instance.RemoveEntity(cha.Data.MapID, cha);
             this.Characters.Remove(characterId);
             }
+        }
+
+        public Character GetCharacter(int chararcterId)
+        {
+            Character character = null;
+            this.Characters.TryGetValue(chararcterId, out character);
+            return character;
         }
     }
 }

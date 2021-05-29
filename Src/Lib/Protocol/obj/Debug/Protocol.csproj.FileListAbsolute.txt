@@ -15,3 +15,12 @@ D:\mmorpg\WorkSpace\Src\Lib\Protocol\obj\Debug\Protocol.csproj.CoreCompileInputs
 D:\mmorpg\WorkSpace\Src\Lib\Protocol\obj\Debug\Protocol.csproj.CopyComplete
 D:\mmorpg\WorkSpace\Src\Lib\Protocol\obj\Debug\Protocol.dll
 D:\mmorpg\WorkSpace\Src\Lib\Protocol\obj\Debug\Protocol.pdb
+D:\2.My Git Hub\MMO\Src\Lib\Protocol\bin\Debug\Protocol.dll
+D:\2.My Git Hub\MMO\Src\Lib\Protocol\bin\Debug\Protocol.pdb
+D:\2.My Git Hub\MMO\Src\Lib\Protocol\bin\Debug\protobuf-net.dll
+D:\2.My Git Hub\MMO\Src\Lib\Protocol\bin\Debug\protobuf-net.xml
+D:\2.My Git Hub\MMO\Src\Lib\Protocol\obj\Debug\Protocol.csprojAssemblyReference.cache
+D:\2.My Git Hub\MMO\Src\Lib\Protocol\obj\Debug\Protocol.csproj.CoreCompileInputs.cache
+D:\2.My Git Hub\MMO\Src\Lib\Protocol\obj\Debug\Protocol.csproj.CopyComplete
+D:\2.My Git Hub\MMO\Src\Lib\Protocol\obj\Debug\Protocol.dll
+D:\2.My Git Hub\MMO\Src\Lib\Protocol\obj\Debug\Protocol.pdb

@@ -50,3 +50,29 @@ D:\mmorpg\WorkSpace\Src\Server\GameServer\GameServer\obj\Debug\GameServer.csproj
 D:\mmorpg\WorkSpace\Src\Server\GameServer\GameServer\obj\Debug\GameServer.csproj.CopyComplete
 D:\mmorpg\WorkSpace\Src\Server\GameServer\GameServer\obj\Debug\GameServer.exe
 D:\mmorpg\WorkSpace\Src\Server\GameServer\GameServer\obj\Debug\GameServer.pdb
+D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\bin\Debug\log4net.xml
+D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\bin\Debug\GameServer.exe.config
+D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\bin\Debug\GameServer.exe
+D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\bin\Debug\GameServer.pdb
+D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\bin\Debug\Common.dll
+D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\bin\Debug\EntityFramework.dll
+D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\bin\Debug\EntityFramework.SqlServer.dll
+D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\bin\Debug\log4net.dll
+D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\bin\Debug\Newtonsoft.Json.dll
+D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\bin\Debug\protobuf-net.dll
+D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\bin\Debug\Protocol.dll
+D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\bin\Debug\UnityEngine.dll
+D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\bin\Debug\Common.pdb
+D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\bin\Debug\Protocol.pdb
+D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\bin\Debug\EntityFramework.xml
+D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\bin\Debug\EntityFramework.SqlServer.xml
+D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\bin\Debug\Newtonsoft.Json.xml
+D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\bin\Debug\protobuf-net.xml
+D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\obj\Debug\GameServer.csprojAssemblyReference.cache
+D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\obj\Debug\GameServer.exe.config
+D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\obj\Debug\GameServer.csproj.CoreCompileInputs.cache
+D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\obj\Debug\GameServer.csproj.CopyComplete
+D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\obj\Debug\GameServer.exe
+D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\obj\Debug\GameServer.pdb

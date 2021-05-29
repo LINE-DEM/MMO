@@ -35,7 +35,7 @@ namespace Managers
             this.minimapBoundingBox = minimapBoundingBox;
             if (this.minimap != null)
             {
-                Debug.Log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+                
                 this.minimap.UpdateMap();
             }
                 

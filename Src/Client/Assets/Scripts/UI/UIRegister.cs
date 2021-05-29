@@ -47,6 +47,7 @@ public class UIRegister : MonoBehaviour {
         }
 
         UserService.Instance.SendRegister(this.username.text,this.password.text);
+        CloseRegister();
     }
 
 

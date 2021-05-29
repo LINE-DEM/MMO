@@ -29,6 +29,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -53,7 +56,12 @@
   <ItemGroup>
     <Compile Include="BufferUtility.cs" />
     <Compile Include="Data\CharacterDefine.cs" />
+    <Compile Include="Data\EquipDefine.cs" />
     <Compile Include="Data\ItemDefine.cs" />
+    <Compile Include="Data\QuestDefine.cs" />
+    <Compile Include="Data\ShopDefine.cs" />
+    <Compile Include="Data\ShopItemDefine.cs" />
+    <Compile Include="Data\SkillDefine.cs" />
     <Compile Include="Data\SpawnRuleDefine.cs" />
     <Compile Include="Data\SpawnPointDefine.cs" />
     <Compile Include="Data\SpawnType.cs" />
@@ -79,4 +87,8 @@
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
 </Project>

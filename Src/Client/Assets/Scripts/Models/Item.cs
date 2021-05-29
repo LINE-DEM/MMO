@@ -4,16 +4,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Item : MonoBehaviour {
+public class Item {
 
 	public int Id;
 	public int Count;
 	public ItemDefine Define;
-	public Item(NItemInfo item)
+	public EquipDefine EquipInfo;
+	public Item(NItemInfo item):this(item.Id , item.Count)
 	{
-		this.Id = item.Id;
-		this.Count = item.Count;
-		this.Define = DataManager.Instance.Items[item.Id];
+
+	}
+	public Item(int id, int count)
+	{
+		this.Id = id;
+		this.Count = count;
+		DataManager.Instance.Items.TryGetValue(this.Id, out this.Define);
+		DataManager.Instance.Equips.TryGetValue(this.Id, out this.EquipInfo);
 	}
 
 	public override string ToString()

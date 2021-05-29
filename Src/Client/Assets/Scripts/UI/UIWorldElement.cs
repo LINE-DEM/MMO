@@ -6,7 +6,7 @@ public class UIWorldElement : MonoBehaviour {
 
     public Transform owner;
 
-    public float height = 2f;
+    public float height;
 
 	// Use this for initialization
 	void Start () {
@@ -19,6 +19,11 @@ public class UIWorldElement : MonoBehaviour {
         if (owner != null)
         {
             this.transform.position = owner.position + Vector3.up * height;
+        }
+
+        if(Camera.main != null)
+        {
+            this.transform.forward = Camera.main.transform.forward;
         }
     }
 }

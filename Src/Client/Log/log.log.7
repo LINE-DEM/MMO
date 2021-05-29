@@ -1,120 +1,83 @@
-2021-03-03 20:51:08,534 [ 1] INFO  Unity: LoadingManager start
-2021-03-03 20:51:14,000 [ 1] INFO  Unity: UserLoginRequest::user :123 psw:123
-2021-03-03 20:51:14,001 [ 1] INFO  Unity: ConnectToServer() Start 
-2021-03-03 20:51:14,005 [ 1] INFO  Unity: DoConnect
-2021-03-03 20:51:14,007 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2021-03-03 20:51:14,011 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2021-05-29 14:27:34,070 [ 1] INFO  Unity: LoadingManager start
+2021-05-29 14:27:41,178 [ 1] INFO  Unity: UserLoginRequest::user :123 psw:123
+2021-05-29 14:27:41,180 [ 1] INFO  Unity: ConnectToServer() Start 
+2021-05-29 14:27:41,184 [ 1] INFO  Unity: DoConnect
+2021-05-29 14:27:41,186 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2021-05-29 14:27:41,189 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2021-03-03 20:51:14,016 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2021-03-03 20:51:14,128 [ 1] INFO  Unity: OnUserLogin:Result:Success Errormsg:[None]
-2021-03-03 20:51:14,130 [ 1] INFO  Unity: LoadLevel: CharSelect
-2021-03-03 20:51:14,365 [ 1] INFO  Unity: LevelLoadCompleted:1
-2021-03-03 20:51:14,366 [ 1] INFO  Unity: DataManager > DataManager()
-2021-03-03 20:51:14,473 [ 1] INFO  Unity: Select Char:[1]123[Warrior]
-2021-03-03 20:51:15,560 [ 1] INFO  Unity: Select Char:[2]流杰[Wizard]
-2021-03-03 20:51:15,983 [ 1] INFO  Unity: 1
-2021-03-03 20:51:15,984 [ 1] INFO  Unity: UserGameEnterRequest::characterId :1
-2021-03-03 20:51:16,010 [ 1] INFO  Unity: OnGameEnter:Success [None]
-2021-03-03 20:51:16,012 [ 1] WARN  Unity: You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively, your script can inherit from ScriptableObject or no base class at all
-UnityEngine.MonoBehaviour:.ctor()
-Item:.ctor(NItemInfo) (at Assets/Scripts/Models/Item.cs:12)
-ItemManager:Init(List`1) (at Assets/Scripts/Managers/ItemManager.cs:16)
-Services.UserService:OnGameEnter(Object, UserGameEnterResponse) (at Assets/Scripts/Services/UserService.cs:236)
-Network.MessageDistributer`1:RaiseEvent(Object, UserGameEnterResponse)
-Network.MessageDispatch`1:Dispatch(Object, NetMessageResponse)
-Network.MessageDistributer`1:Distribute()
-Network.NetClient:ProceeMessage() (at Assets/Scripts/Network/NetClient.cs:421)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:439)
+2021-05-29 14:27:41,193 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2021-05-29 14:27:43,411 [ 1] INFO  Unity: OnUserLogin:Result:Success Errormsg:[None]
+2021-05-29 14:27:43,413 [ 1] INFO  Unity: LoadLevel: CharSelect
+2021-05-29 14:27:43,616 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-05-29 14:27:43,619 [ 1] INFO  Unity: DataManager > DataManager()
+2021-05-29 14:27:45,366 [ 1] INFO  Unity: Select Char:[7]jjjj[Wizard]
+2021-05-29 14:27:45,835 [ 1] INFO  Unity: 6
+2021-05-29 14:27:45,836 [ 1] INFO  Unity: UserGameEnterRequest::characterId :6
+2021-05-29 14:27:48,435 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2021-05-29 14:27:48,438 [ 1] INFO  Unity: 物品管理器初始化 物品id 1 数量：20
+2021-05-29 14:27:48,439 [ 1] INFO  Unity: 物品管理器初始化 物品id 2 数量：20
+2021-05-29 14:27:48,440 [ 1] INFO  Unity: 物品管理器初始化 物品id 1001 数量：1
+2021-05-29 14:27:48,449 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2021-05-29 14:27:48,451 [ 1] INFO  Unity: AddCharacter:7:jjjj Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2021-05-29 14:27:48,453 [ 1] INFO  Unity: LoadLevel: MainCity
+2021-05-29 14:27:48,454 [ 1] INFO  Unity: OnMapCharacterEnter:
+2021-05-29 14:27:48,455 [ 1] INFO  Unity: LoadLevel: MainCity
+2021-05-29 14:27:49,304 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
 
-2021-03-03 20:51:16,013 [ 1] INFO  Unity: 物品管理器初始化 物品id 1 数量：12
-2021-03-03 20:51:16,014 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2021-03-03 20:51:16,015 [ 1] INFO  Unity: AddCharacter:2:流杰 Map:1 Entity:(5:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2021-03-03 20:51:16,017 [ 1] INFO  Unity: LoadLevel: MainCity
-2021-03-03 20:51:16,017 [ 1] INFO  Unity: OnMapCharacterEnter:
-2021-03-03 20:51:16,018 [ 1] INFO  Unity: LoadLevel: MainCity
-2021-03-03 20:51:16,581 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+2021-05-29 14:27:49,317 [ 1] INFO  Unity: Archer OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-05-29 14:27:49,318 [ 1] INFO  Unity: Wizard OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-05-29 14:27:49,427 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-05-29 14:27:49,428 [ 1] INFO  Unity: 埃布尔
+2021-05-29 14:27:49,430 [ 1] INFO  Unity: 奥德利奇
+2021-05-29 14:27:49,430 [ 1] INFO  Unity: 莉莉丝
+2021-05-29 14:27:49,431 [ 1] INFO  Unity: 多丽丝
+2021-05-29 14:27:49,863 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-05-29 14:27:49,863 [ 1] INFO  Unity: 埃布尔
+2021-05-29 14:27:49,864 [ 1] INFO  Unity: 奥德利奇
+2021-05-29 14:27:49,865 [ 1] INFO  Unity: 莉莉丝
+2021-05-29 14:27:49,865 [ 1] INFO  Unity: 多丽丝
+2021-05-29 14:28:28,723 [ 1] INFO  Unity: ProcessReceive exception:System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
 
-2021-03-03 20:51:16,602 [ 1] INFO  Unity: Warrior OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
-2021-03-03 20:51:16,603 [ 1] INFO  Unity: Archer OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
-2021-03-03 20:51:16,603 [ 1] INFO  Unity: Wizard OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
-2021-03-03 20:51:16,714 [ 1] INFO  Unity: LevelLoadCompleted:1
-2021-03-03 20:51:16,720 [ 1] INFO  Unity: ???????????????????????????????????????
-2021-03-03 20:51:16,721 [ 1] INFO  Unity: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-2021-03-03 20:51:17,236 [ 1] INFO  Unity: LevelLoadCompleted:1
-2021-03-03 20:51:17,236 [ 1] INFO  Unity: ???????????????????????????????????????
-2021-03-03 20:51:17,237 [ 1] INFO  Unity: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-2021-03-03 20:51:17,759 [ 1] INFO  Unity: SetDirection:(98, -18, 0)
-2021-03-03 20:51:17,845 [ 1] INFO  Unity: MoveForward
-2021-03-03 20:51:17,860 [ 1] INFO  Unity: SetDirection:(94, -35, 0)
-2021-03-03 20:51:17,942 [ 1] INFO  Unity: SetDirection:(86, -51, 0)
-2021-03-03 20:51:18,027 [ 1] INFO  Unity: SetDirection:(76, -65, 0)
-2021-03-03 20:51:18,110 [ 1] INFO  Unity: SetDirection:(63, -77, 0)
-2021-03-03 20:51:18,194 [ 1] INFO  Unity: SetDirection:(49, -87, 0)
-2021-03-03 20:51:18,277 [ 1] INFO  Unity: SetDirection:(33, -94, 0)
-2021-03-03 20:51:18,360 [ 1] INFO  Unity: SetDirection:(16, -99, 0)
-2021-03-03 20:51:18,462 [ 1] INFO  Unity: SetDirection:(-5, -100, 0)
-2021-03-03 20:51:18,561 [ 1] INFO  Unity: SetDirection:(-25, -97, 0)
-2021-03-03 20:51:18,646 [ 1] INFO  Unity: SetDirection:(-42, -91, 0)
-2021-03-03 20:51:18,747 [ 1] INFO  Unity: SetDirection:(-60, -80, 0)
-2021-03-03 20:51:18,862 [ 1] INFO  Unity: SetDirection:(-74, -68, 0)
-2021-03-03 20:51:20,418 [ 1] INFO  Unity: taskNPC
-2021-03-03 20:51:21,251 [ 1] INFO  Unity: SetDirection:(-84, -54, 0)
-2021-03-03 20:51:21,403 [ 1] INFO  Unity: SetDirection:(-92, -38, 0)
-2021-03-03 20:51:21,502 [ 1] INFO  Unity: SetDirection:(-98, -20, 0)
-2021-03-03 20:51:21,586 [ 1] INFO  Unity: SetDirection:(-100, -2, 0)
-2021-03-03 20:51:21,688 [ 1] INFO  Unity: SetDirection:(-98, 18, 0)
-2021-03-03 20:51:21,770 [ 1] INFO  Unity: SetDirection:(-94, 35, 0)
-2021-03-03 20:51:21,867 [ 1] INFO  Unity: SetDirection:(-85, 53, 0)
-2021-03-03 20:51:22,019 [ 1] INFO  Unity: SetDirection:(-74, 67, 0)
-2021-03-03 20:51:22,150 [ 1] INFO  Unity: Stop
-2021-03-03 20:51:23,265 [ 1] INFO  Unity: taskNPC
-2021-03-03 20:51:23,719 [ 1] INFO  Unity: taskNPC
-2021-03-03 20:51:24,423 [ 1] INFO  Unity: SetDirection:(-85, 52, 0)
-2021-03-03 20:51:24,438 [ 1] INFO  Unity: MoveForward
-2021-03-03 20:51:24,527 [ 1] INFO  Unity: SetDirection:(-94, 34, 0)
-2021-03-03 20:51:24,628 [ 1] INFO  Unity: SetDirection:(-99, 14, 0)
-2021-03-03 20:51:24,707 [ 1] INFO  Unity: SetDirection:(-100, -3, 0)
-2021-03-03 20:51:24,805 [ 1] INFO  Unity: SetDirection:(-98, -21, 0)
-2021-03-03 20:51:24,895 [ 1] INFO  Unity: SetDirection:(-92, -39, 0)
-2021-03-03 20:51:25,061 [ 1] INFO  Unity: SetDirection:(-83, -55, 0)
-2021-03-03 20:51:25,426 [ 1] INFO  Unity: SetDirection:(-72, -69, 0)
-2021-03-03 20:51:25,694 [ 1] INFO  Unity: SetDirection:(-83, -55, 0)
-2021-03-03 20:51:25,794 [ 1] INFO  Unity: SetDirection:(-92, -39, 0)
-2021-03-03 20:51:25,896 [ 1] INFO  Unity: SetDirection:(-98, -19, 0)
-2021-03-03 20:51:25,997 [ 1] INFO  Unity: SetDirection:(-100, 1, 0)
-2021-03-03 20:51:26,081 [ 1] INFO  Unity: SetDirection:(-98, 19, 0)
-2021-03-03 20:51:26,180 [ 1] INFO  Unity: SetDirection:(-92, 39, 0)
-2021-03-03 20:51:26,296 [ 1] INFO  Unity: SetDirection:(-83, 56, 0)
-2021-03-03 20:51:27,418 [ 1] INFO  Unity: Treasure_poter
-2021-03-03 20:51:27,950 [ 1] INFO  Unity: SetDirection:(-71, 70, 0)
-2021-03-03 20:51:28,096 [ 1] INFO  Unity: SetDirection:(-56, 83, 0)
-2021-03-03 20:51:28,202 [ 1] INFO  Unity: SetDirection:(-39, 92, 0)
-2021-03-03 20:51:28,314 [ 1] INFO  Unity: SetDirection:(-21, 98, 0)
-2021-03-03 20:51:28,479 [ 1] INFO  Unity: SetDirection:(-3, 100, 0)
-2021-03-03 20:51:29,068 [ 1] INFO  Unity: Treasure_poter
-2021-03-03 20:51:30,100 [ 1] INFO  Unity: Treasure_poter
-2021-03-03 20:51:30,296 [ 1] INFO  Unity: Treasure_poter
-2021-03-03 20:51:31,085 [ 1] INFO  Unity: Stop
-2021-03-03 20:51:31,202 [ 1] INFO  Unity: SetDirection:(15, 99, 0)
-2021-03-03 20:51:31,306 [ 1] INFO  Unity: SetDirection:(33, 95, 0)
-2021-03-03 20:51:31,438 [ 1] INFO  Unity: SetDirection:(49, 87, 0)
-2021-03-03 20:51:32,083 [ 1] INFO  Unity: DeliveryNPC1
-2021-03-03 20:51:32,611 [ 1] INFO  Unity: MoveForward
-2021-03-03 20:51:33,112 [ 1] INFO  Unity: DeliveryNPC1
-2021-03-03 20:51:33,372 [ 1] INFO  Unity: DeliveryNPC1
-2021-03-03 20:51:33,475 [ 1] INFO  Unity: SetDirection:(65, 76, 0)
-2021-03-03 20:51:33,643 [ 1] INFO  Unity: SetDirection:(78, 63, 0)
-2021-03-03 20:51:34,260 [ 1] INFO  Unity: SetDirection:(88, 48, 0)
-2021-03-03 20:51:34,375 [ 1] INFO  Unity: SetDirection:(96, 29, 0)
-2021-03-03 20:51:34,541 [ 1] INFO  Unity: SetDirection:(99, 11, 0)
-2021-03-03 20:51:34,806 [ 1] INFO  Unity: DeliveryNPC1
-2021-03-03 20:51:34,977 [ 1] INFO  Unity: DeliveryNPC1
-2021-03-03 20:51:35,279 [ 1] INFO  Unity: SetDirection:(100, -7, 0)
-2021-03-03 20:51:35,327 [ 1] INFO  Unity: Stop
-2021-03-03 20:51:43,109 [ 1] INFO  Unity: Character_5_流杰 OnDestroy :ID:5 POS:(4051, 4816, 804) DIR:(100, -7, 0) SPD:0 
-2021-03-03 20:51:43,113 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2021-03-03 20:51:43,114 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+  at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags) [0x00000] in <filename unknown>:0 
+  at Network.NetClient.ProcessRecv () [0x00084] in D:\2.My Git Hub\MMO\Src\Client\Assets\Scripts\Network\NetClient.cs:338 
+
+2021-05-29 14:28:28,724 [ 1] WARN  Unity: CloseConnection(), errorCode: 1001
 UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
-Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:178)
+Network.NetClient:ProcessRecv() (at Assets/Scripts/Network/NetClient.cs:352)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
+
+2021-05-29 14:28:28,729 [ 1] INFO  Unity: DoConnect
+2021-05-29 14:28:28,730 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2021-05-29 14:28:28,731 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+
+2021-05-29 14:28:30,759 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:178)
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:272)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:167)
+Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:313)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:430)
+
+2021-05-29 14:28:30,760 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
+
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
+UnityEngine.Debug:LogErrorFormat(String, Object[])
+Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:274)
+Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:167)
+Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:313)
+Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:430)
+
+2021-05-29 14:28:30,804 [ 1] INFO  Unity: DoConnect
+2021-05-29 14:28:30,805 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2021-05-29 14:28:30,807 [ 1] INFO  Unity: Connect[1] to server 127.0.0.1:8000
+
+2021-05-29 14:28:32,842 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2021-05-29 14:28:33,926 [ 1] INFO  Unity: Character_7_jjjj OnDestroy :ID:1 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2021-05-29 14:28:33,927 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2021-05-29 14:28:33,927 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:178)
+Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:173)
 

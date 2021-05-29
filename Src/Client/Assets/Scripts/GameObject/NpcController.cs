@@ -17,6 +17,7 @@ public class NpcController : MonoBehaviour {
 
 	NpcDefine npc;
 
+	NpcQuestStatus questStatus;
 	// Use this for initialization
 	void Start () {
 		renderer = this.gameObject.GetComponentInChildren<SkinnedMeshRenderer>();
@@ -25,17 +26,44 @@ public class NpcController : MonoBehaviour {
 		npc = NPCManager.Instance.GetNpcDefine(npcID);
 		Debug.Log(npc.Name);
 		this.StartCoroutine("Actions");
+		QuestManager.Instance.onQuestStatusChanged += OnQuestStatusChange;
+		this.RefresNpcStatus();
 	}
 	
+	void OnQuestStatusChange(Quest quest)
+	{
+		this.RefresNpcStatus();
+	}
+
+	void RefresNpcStatus()
+	{
+		questStatus = QuestManager.Instance.GetQuestStatusByNpc(this.npcID);
+		UIWorldElementManager.Instance.AddNpcQuestStatus(this.transform, questStatus);
+	}
+
+	void OnDestroy()
+	{
+		QuestManager.Instance.onQuestStatusChanged -= OnQuestStatusChange;
+		if(UIWorldElementManager.Instance != null)
+		{
+			UIWorldElementManager.Instance.RemoveNpcQuestStatus(this.transform);
+		}
+	}
+
 	IEnumerator Actions()
 	{
+		anim.SetTrigger("Idle");
 		while (true)
 		{
+			
 			if (inInteractive)
 				yield return new WaitForSeconds(2f);
 			else
 				yield return new WaitForSeconds(Random.Range(5f, 10f));
 			this.Relax();
+			yield return new WaitForSeconds(2f);
+			
+			anim.ResetTrigger("Relax");
 		}
 	}
 	// Update is called once per frame
@@ -65,6 +93,7 @@ public class NpcController : MonoBehaviour {
 			anim.SetTrigger("Talk");
 		}
 		yield return new WaitForSeconds(3f);
+		anim.ResetTrigger("Talk");
 		inInteractive = false;
 	}
 

@@ -18,7 +18,8 @@ public abstract class MonoSingleton<T> : MonoBehaviour where T : MonoBehaviour
 
     }
 
-    void Start()
+    //占用Awake方法 每次初始化的时候确保只有一个instance 
+    void Awake()
     {
         if (global)
         {
@@ -34,6 +35,7 @@ public abstract class MonoSingleton<T> : MonoBehaviour where T : MonoBehaviour
         this.OnStart();
     }
 
+    //提供一个OnStart方法
     protected virtual void OnStart()
     {
 

@@ -8,15 +8,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+/// <summary>
+/// 一个角色一个ItemManger
+/// </summary>
 namespace GameServer.Managers
 {
     class ItemManager
     {
         Character Owner;
 
+        //存的是封装过的Item
         public Dictionary<int, Item> Items = new Dictionary<int, Item>();
         
+        //创建的时候获取DB里的Item列表
         public ItemManager(Character owner)
         {
             this.Owner = owner;
@@ -69,18 +73,22 @@ namespace GameServer.Managers
             }
             else
             {
+                //创建一个ItemData数据 
                 TCharacterItem dbItem = new TCharacterItem();
                 dbItem.TCharacterID = Owner.Data.ID;
                 dbItem.Owner = Owner.Data;
                 dbItem.ItemID = itemId;
                 dbItem.ItemCount = count;
+                //给这个角色的Data添加进去
                 Owner.Data.Items.Add(dbItem);
+                //给这个管理类添加一份
                 item = new Item(dbItem);
                 this.Items.Add(itemId, item);
 
             }
+            this.Owner.StatusManager.AddItemChange(itemId, count, StatusAction.Add);
             Log.InfoFormat("{0} 获取道具 {1}  {2}个", this.Owner.Data.ID, item, count);
-            DBService.Instance.Save();
+            //DBService.Instance.Save();
             return true;
         }
 
@@ -94,8 +102,10 @@ namespace GameServer.Managers
             if (item.Count < count)
                 return false;
             item.Remove(count);
+            //只需要记录到状态管理器 后面一起发送
+            this.Owner.StatusManager.AddItemChange(ItemId, count, StatusAction.Delete);
             Log.InfoFormat("{0}移除道具{1}  {2}个", this.Owner.Data.ID, item, count);
-            DBService.Instance.Save();
+            //DBService.Instance.Save();
             return true;
         }
 

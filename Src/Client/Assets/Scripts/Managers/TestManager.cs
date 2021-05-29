@@ -2,7 +2,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.VersionControl;
+//using UnityEditor.VersionControl;
 using UnityEngine;
 
 public class TestManager :Singleton<TestManager> {
@@ -19,8 +19,8 @@ public class TestManager :Singleton<TestManager> {
 	}
 	private bool OpenInvokeShop(NpcDefine npc)
 	{
-		UITest temp = UIManager.Instance.Show<UITest>();
-		temp.SetTitle(npc.Name);
+		//UITest temp = UIManager.Instance.Show<UITest>();
+		//temp.SetTitle(npc.Name);
 		return true;
 	}
 

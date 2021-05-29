@@ -30,7 +30,10 @@ namespace GameServer
             
             DataManager.Instance.Load();
             MapService.Instance.Init();
-            
+            ItemService.Instance.Init();
+            QuestService.Instance.Init();
+            FriendService.Instance.Init();
+            SkillService.Instance.Init();
             thread = new Thread(new ThreadStart(this.Update));
 
             return true;
@@ -58,6 +61,7 @@ namespace GameServer
                 Time.Tick();
                 Thread.Sleep(100);
                 //Console.WriteLine("{0} {1} {2} {3} {4}", Time.deltaTime, Time.frameCount, Time.ticks, Time.time, Time.realtimeSinceStartup);
+                MapManager.Instance.Update();
             }
         }
     }

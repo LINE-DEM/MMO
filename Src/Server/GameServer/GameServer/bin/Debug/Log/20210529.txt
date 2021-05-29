@@ -1,0 +1,704 @@
+
+2021-05-29 07:35:42,021 [1] [INFO ] [GameServer] ：Game Server Init
+2021-05-29 07:35:42,405 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-05-29 07:35:42,665 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2021-05-29 07:35:42,669 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落入森林
+2021-05-29 07:35:42,670 [1] [ERROR] [GameServer] ：刷怪规则【1】  刷怪点【0】不存在！！！
+2021-05-29 07:35:42,670 [1] [ERROR] [GameServer] ：刷怪规则【2】  刷怪点【0】不存在！！！
+2021-05-29 07:35:42,671 [1] [ERROR] [GameServer] ：刷怪规则【3】  刷怪点【0】不存在！！！
+2021-05-29 07:35:42,671 [1] [ERROR] [GameServer] ：刷怪规则【4】  刷怪点【0】不存在！！！
+2021-05-29 07:35:42,671 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3: 落日森林
+2021-05-29 07:35:42,672 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4: 落日空间
+2021-05-29 07:35:42,674 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-05-29 07:35:42,792 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:35:42,793 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:35:42,793 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:35:42,799 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:35:42,799 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:35:42,799 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:35:42,802 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:35:42,802 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:35:42,897 [1] [WARN ] [GameServer] ：NetService Started
+2021-05-29 07:36:00,165 [17] [WARN ] [GameServer] ：Client[127.0.0.1:1518]] Connected
+2021-05-29 07:36:00,234 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2021-05-29 07:36:00,333 [5] [INFO ] [GameServer] ：UserLoginRequest: User:123  Pass:123
+2021-05-29 07:36:06,539 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-05-29 07:36:08,435 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:7:jjjj Map:1
+2021-05-29 07:36:09,456 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:7
+2021-05-29 07:36:40,822 [18] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:7
+2021-05-29 07:36:40,823 [18] [WARN ] [GameServer] ：Client[] Disconnected
+2021-05-29 07:36:43,151 [4] [INFO ] [GameServer] ：地图【2】 刷怪【1】 怪物【1001】 等级【1】 在的坐标【1】
+2021-05-29 07:36:43,153 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【2】
+2021-05-29 07:36:43,154 [4] [INFO ] [GameServer] ：地图【2】 刷怪【2】 怪物【1002】 等级【1】 在的坐标【2】
+2021-05-29 07:36:43,154 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【3】
+2021-05-29 07:36:43,154 [4] [INFO ] [GameServer] ：地图【2】 刷怪【3】 怪物【1003】 等级【1】 在的坐标【3】
+2021-05-29 07:36:43,155 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【4】
+2021-05-29 07:36:43,155 [4] [INFO ] [GameServer] ：地图【2】 刷怪【4】 怪物【1005】 等级【1】 在的坐标【4】
+2021-05-29 07:36:43,156 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【5】
+2021-05-29 07:36:43,156 [4] [INFO ] [GameServer] ：地图【3】 刷怪【1】 怪物【1001】 等级【1】 在的坐标【1】
+2021-05-29 07:36:43,156 [4] [INFO ] [GameServer] ：地图【3】 刷怪【2】 怪物【1002】 等级【1】 在的坐标【2】
+2021-05-29 07:36:43,157 [4] [INFO ] [GameServer] ：地图【3】 刷怪【3】 怪物【1003】 等级【1】 在的坐标【3】
+2021-05-29 07:36:43,157 [4] [INFO ] [GameServer] ：地图【3】 刷怪【4】 怪物【1005】 等级【1】 在的坐标【4】
+2021-05-29 07:36:58,594 [6] [WARN ] [GameServer] ：Client[127.0.0.1:1582]] Connected
+2021-05-29 07:36:58,874 [6] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2021-05-29 07:36:58,874 [5] [INFO ] [GameServer] ：UserLoginRequest: User:123  Pass:123
+2021-05-29 07:37:02,544 [6] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-05-29 07:37:04,164 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:7:jjjj Map:1
+2021-05-29 07:37:04,721 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:7
+2021-05-29 07:38:17,549 [15] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:7
+2021-05-29 07:38:17,550 [15] [WARN ] [GameServer] ：Client[] Disconnected
+2021-05-29 07:38:59,925 [14] [WARN ] [GameServer] ：Client[127.0.0.1:1659]] Connected
+2021-05-29 07:38:59,999 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2021-05-29 07:39:00,000 [5] [INFO ] [GameServer] ：UserLoginRequest: User:123  Pass:123
+2021-05-29 07:39:02,803 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-05-29 07:39:04,555 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:7:jjjj Map:1
+2021-05-29 07:39:05,217 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:7
+2021-05-29 07:39:22,041 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:11
+2021-05-29 07:43:30,665 [1] [INFO ] [GameServer] ：Game Server Init
+2021-05-29 07:43:30,968 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-05-29 07:43:31,170 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2021-05-29 07:43:31,173 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落入森林
+2021-05-29 07:43:31,173 [1] [ERROR] [GameServer] ：刷怪规则【1】  刷怪点【0】不存在！！！
+2021-05-29 07:43:31,173 [1] [ERROR] [GameServer] ：刷怪规则【2】  刷怪点【0】不存在！！！
+2021-05-29 07:43:31,173 [1] [ERROR] [GameServer] ：刷怪规则【3】  刷怪点【0】不存在！！！
+2021-05-29 07:43:31,174 [1] [ERROR] [GameServer] ：刷怪规则【4】  刷怪点【0】不存在！！！
+2021-05-29 07:43:31,174 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3: 落日森林
+2021-05-29 07:43:31,174 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4: 落日空间
+2021-05-29 07:43:31,176 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-05-29 07:43:31,216 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:43:31,216 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:43:31,216 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:43:31,216 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:43:31,216 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:43:31,217 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:43:31,218 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:43:31,218 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:43:31,295 [1] [WARN ] [GameServer] ：NetService Started
+2021-05-29 07:43:34,705 [3] [WARN ] [GameServer] ：Client[127.0.0.1:1722]] Connected
+2021-05-29 07:43:34,784 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2021-05-29 07:43:34,891 [5] [INFO ] [GameServer] ：UserLoginRequest: User:123  Pass:123
+2021-05-29 07:43:39,462 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-05-29 07:43:42,463 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:7:jjjj Map:1
+2021-05-29 07:43:45,030 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:7
+2021-05-29 07:43:51,425 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:11
+2021-05-29 07:44:39,966 [1] [INFO ] [GameServer] ：Game Server Init
+2021-05-29 07:44:40,244 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-05-29 07:44:40,428 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2021-05-29 07:44:40,430 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落入森林
+2021-05-29 07:44:40,431 [1] [ERROR] [GameServer] ：刷怪规则【1】  刷怪点【0】不存在！！！
+2021-05-29 07:44:40,431 [1] [ERROR] [GameServer] ：刷怪规则【2】  刷怪点【0】不存在！！！
+2021-05-29 07:44:40,431 [1] [ERROR] [GameServer] ：刷怪规则【3】  刷怪点【0】不存在！！！
+2021-05-29 07:44:40,431 [1] [ERROR] [GameServer] ：刷怪规则【4】  刷怪点【0】不存在！！！
+2021-05-29 07:44:40,431 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3: 落日森林
+2021-05-29 07:44:40,431 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4: 落日空间
+2021-05-29 07:44:40,433 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-05-29 07:44:40,471 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:44:40,471 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:44:40,473 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:44:40,473 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:44:40,473 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:44:40,475 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:44:40,475 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:44:40,476 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:44:40,545 [1] [WARN ] [GameServer] ：NetService Started
+2021-05-29 07:44:52,119 [3] [WARN ] [GameServer] ：Client[127.0.0.1:1739]] Connected
+2021-05-29 07:44:52,182 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2021-05-29 07:44:52,281 [5] [INFO ] [GameServer] ：UserLoginRequest: User:123  Pass:123
+2021-05-29 07:44:57,451 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-05-29 07:44:59,690 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:7:jjjj Map:1
+2021-05-29 07:45:00,387 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:7
+2021-05-29 07:45:05,067 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:11
+2021-05-29 07:45:26,465 [5] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 Network.NetConnection`1.SendResponse() 位置 D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\Network\NetConnection.cs:行号 135
+   在 GameServer.Services.SkillService.OnSkillOpen(NetConnection`1 sender, SkillOpenRequest message) 位置 D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\Services\SkillService.cs:行号 32
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\2.My Git Hub\MMO\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2021-05-29 07:45:40,712 [4] [INFO ] [GameServer] ：地图【2】 刷怪【1】 怪物【1001】 等级【1】 在的坐标【1】
+2021-05-29 07:45:40,714 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【2】
+2021-05-29 07:45:40,714 [4] [INFO ] [GameServer] ：地图【2】 刷怪【2】 怪物【1002】 等级【1】 在的坐标【2】
+2021-05-29 07:45:40,714 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【3】
+2021-05-29 07:45:40,715 [4] [INFO ] [GameServer] ：地图【2】 刷怪【3】 怪物【1003】 等级【1】 在的坐标【3】
+2021-05-29 07:45:40,715 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【4】
+2021-05-29 07:45:40,716 [4] [INFO ] [GameServer] ：地图【2】 刷怪【4】 怪物【1005】 等级【1】 在的坐标【4】
+2021-05-29 07:45:40,716 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【5】
+2021-05-29 07:45:40,717 [4] [INFO ] [GameServer] ：地图【3】 刷怪【1】 怪物【1001】 等级【1】 在的坐标【1】
+2021-05-29 07:45:40,717 [4] [INFO ] [GameServer] ：地图【3】 刷怪【2】 怪物【1002】 等级【1】 在的坐标【2】
+2021-05-29 07:45:40,717 [4] [INFO ] [GameServer] ：地图【3】 刷怪【3】 怪物【1003】 等级【1】 在的坐标【3】
+2021-05-29 07:45:40,718 [4] [INFO ] [GameServer] ：地图【3】 刷怪【4】 怪物【1005】 等级【1】 在的坐标【4】
+2021-05-29 07:46:13,465 [1] [INFO ] [GameServer] ：Game Server Init
+2021-05-29 07:46:13,725 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-05-29 07:46:13,913 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2021-05-29 07:46:13,915 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落入森林
+2021-05-29 07:46:13,915 [1] [ERROR] [GameServer] ：刷怪规则【1】  刷怪点【0】不存在！！！
+2021-05-29 07:46:13,915 [1] [ERROR] [GameServer] ：刷怪规则【2】  刷怪点【0】不存在！！！
+2021-05-29 07:46:13,916 [1] [ERROR] [GameServer] ：刷怪规则【3】  刷怪点【0】不存在！！！
+2021-05-29 07:46:13,916 [1] [ERROR] [GameServer] ：刷怪规则【4】  刷怪点【0】不存在！！！
+2021-05-29 07:46:13,916 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3: 落日森林
+2021-05-29 07:46:13,916 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4: 落日空间
+2021-05-29 07:46:13,918 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-05-29 07:46:13,986 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:46:13,986 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:46:13,986 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:46:13,986 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:46:13,986 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:46:13,986 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:46:13,986 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:46:13,986 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:46:14,063 [1] [WARN ] [GameServer] ：NetService Started
+2021-05-29 07:46:14,100 [3] [WARN ] [GameServer] ：Client[127.0.0.1:1749]] Connected
+2021-05-29 07:46:14,184 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2021-05-29 07:46:20,617 [3] [WARN ] [GameServer] ：Client[127.0.0.1:1757]] Connected
+2021-05-29 07:46:20,679 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2021-05-29 07:46:20,774 [5] [INFO ] [GameServer] ：UserLoginRequest: User:123  Pass:123
+2021-05-29 07:46:26,064 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-05-29 07:46:27,886 [7] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:7:jjjj Map:1
+2021-05-29 07:46:28,576 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:7
+2021-05-29 07:46:33,421 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:11
+2021-05-29 07:47:19,826 [4] [INFO ] [GameServer] ：地图【2】 刷怪【1】 怪物【1001】 等级【1】 在的坐标【1】
+2021-05-29 07:47:23,110 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【2】
+2021-05-29 07:47:23,388 [4] [INFO ] [GameServer] ：地图【2】 刷怪【2】 怪物【1002】 等级【1】 在的坐标【2】
+2021-05-29 07:47:23,388 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【3】
+2021-05-29 07:47:23,389 [4] [INFO ] [GameServer] ：地图【2】 刷怪【3】 怪物【1003】 等级【1】 在的坐标【3】
+2021-05-29 07:47:23,390 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【4】
+2021-05-29 07:47:23,390 [4] [INFO ] [GameServer] ：地图【2】 刷怪【4】 怪物【1005】 等级【1】 在的坐标【4】
+2021-05-29 07:47:23,391 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【5】
+2021-05-29 07:47:23,391 [4] [INFO ] [GameServer] ：地图【3】 刷怪【1】 怪物【1001】 等级【1】 在的坐标【1】
+2021-05-29 07:47:23,392 [4] [INFO ] [GameServer] ：地图【3】 刷怪【2】 怪物【1002】 等级【1】 在的坐标【2】
+2021-05-29 07:47:23,393 [4] [INFO ] [GameServer] ：地图【3】 刷怪【3】 怪物【1003】 等级【1】 在的坐标【3】
+2021-05-29 07:47:23,393 [4] [INFO ] [GameServer] ：地图【3】 刷怪【4】 怪物【1005】 等级【1】 在的坐标【4】
+2021-05-29 07:47:51,279 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:7
+2021-05-29 07:47:51,280 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2021-05-29 07:49:22,565 [1] [INFO ] [GameServer] ：Game Server Init
+2021-05-29 07:49:22,857 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-05-29 07:49:23,083 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2021-05-29 07:49:23,085 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落入森林
+2021-05-29 07:49:23,086 [1] [ERROR] [GameServer] ：刷怪规则【1】  刷怪点【0】不存在！！！
+2021-05-29 07:49:23,086 [1] [ERROR] [GameServer] ：刷怪规则【2】  刷怪点【0】不存在！！！
+2021-05-29 07:49:23,087 [1] [ERROR] [GameServer] ：刷怪规则【3】  刷怪点【0】不存在！！！
+2021-05-29 07:49:23,087 [1] [ERROR] [GameServer] ：刷怪规则【4】  刷怪点【0】不存在！！！
+2021-05-29 07:49:23,087 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3: 落日森林
+2021-05-29 07:49:23,087 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4: 落日空间
+2021-05-29 07:49:23,089 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-05-29 07:49:23,155 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:49:23,155 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:49:23,155 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:49:23,155 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:49:23,155 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:49:23,155 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:49:23,156 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:49:23,155 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 07:49:23,199 [1] [WARN ] [GameServer] ：NetService Started
+2021-05-29 07:49:26,575 [3] [WARN ] [GameServer] ：Client[127.0.0.1:1809]] Connected
+2021-05-29 07:49:26,752 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2021-05-29 07:49:26,860 [5] [INFO ] [GameServer] ：UserLoginRequest: User:123  Pass:123
+2021-05-29 07:49:32,279 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-05-29 07:49:34,247 [7] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:7:jjjj Map:1
+2021-05-29 07:49:34,989 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:7
+2021-05-29 07:49:57,649 [17] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:7
+2021-05-29 07:49:57,650 [17] [WARN ] [GameServer] ：Client[] Disconnected
+2021-05-29 07:50:23,426 [4] [INFO ] [GameServer] ：地图【2】 刷怪【1】 怪物【1001】 等级【1】 在的坐标【1】
+2021-05-29 07:50:23,428 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【2】
+2021-05-29 07:50:23,428 [4] [INFO ] [GameServer] ：地图【2】 刷怪【2】 怪物【1002】 等级【1】 在的坐标【2】
+2021-05-29 07:50:23,429 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【3】
+2021-05-29 07:50:23,430 [4] [INFO ] [GameServer] ：地图【2】 刷怪【3】 怪物【1003】 等级【1】 在的坐标【3】
+2021-05-29 07:50:23,430 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【4】
+2021-05-29 07:50:23,431 [4] [INFO ] [GameServer] ：地图【2】 刷怪【4】 怪物【1005】 等级【1】 在的坐标【4】
+2021-05-29 07:50:23,431 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【5】
+2021-05-29 07:50:23,431 [4] [INFO ] [GameServer] ：地图【3】 刷怪【1】 怪物【1001】 等级【1】 在的坐标【1】
+2021-05-29 07:50:23,431 [4] [INFO ] [GameServer] ：地图【3】 刷怪【2】 怪物【1002】 等级【1】 在的坐标【2】
+2021-05-29 07:50:23,432 [4] [INFO ] [GameServer] ：地图【3】 刷怪【3】 怪物【1003】 等级【1】 在的坐标【3】
+2021-05-29 07:50:23,432 [4] [INFO ] [GameServer] ：地图【3】 刷怪【4】 怪物【1005】 等级【1】 在的坐标【4】
+2021-05-29 08:08:34,054 [1] [INFO ] [GameServer] ：Game Server Init
+2021-05-29 08:08:34,353 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-05-29 08:08:34,581 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2021-05-29 08:08:34,584 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落入森林
+2021-05-29 08:08:34,585 [1] [ERROR] [GameServer] ：刷怪规则【1】  刷怪点【0】不存在！！！
+2021-05-29 08:08:34,585 [1] [ERROR] [GameServer] ：刷怪规则【2】  刷怪点【0】不存在！！！
+2021-05-29 08:08:34,585 [1] [ERROR] [GameServer] ：刷怪规则【3】  刷怪点【0】不存在！！！
+2021-05-29 08:08:34,586 [1] [ERROR] [GameServer] ：刷怪规则【4】  刷怪点【0】不存在！！！
+2021-05-29 08:08:34,586 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3: 落日森林
+2021-05-29 08:08:34,586 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4: 落日空间
+2021-05-29 08:08:34,587 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-05-29 08:08:34,607 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:08:34,615 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:08:34,615 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:08:34,618 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:08:34,623 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:08:34,625 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:08:34,631 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:08:34,631 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:08:34,730 [1] [WARN ] [GameServer] ：NetService Started
+2021-05-29 08:29:08,736 [1] [INFO ] [GameServer] ：Game Server Init
+2021-05-29 08:29:09,011 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-05-29 08:29:09,212 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2021-05-29 08:29:09,215 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落入森林
+2021-05-29 08:29:09,216 [1] [ERROR] [GameServer] ：刷怪规则【1】  刷怪点【0】不存在！！！
+2021-05-29 08:29:09,216 [1] [ERROR] [GameServer] ：刷怪规则【2】  刷怪点【0】不存在！！！
+2021-05-29 08:29:09,216 [1] [ERROR] [GameServer] ：刷怪规则【3】  刷怪点【0】不存在！！！
+2021-05-29 08:29:09,217 [1] [ERROR] [GameServer] ：刷怪规则【4】  刷怪点【0】不存在！！！
+2021-05-29 08:29:09,217 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3: 落日森林
+2021-05-29 08:29:09,217 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4: 落日空间
+2021-05-29 08:29:09,218 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-05-29 08:29:09,324 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:29:09,324 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:29:09,324 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:29:09,324 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:29:09,324 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:29:09,325 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:29:09,324 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:29:09,324 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:29:09,420 [1] [WARN ] [GameServer] ：NetService Started
+2021-05-29 08:29:49,692 [3] [WARN ] [GameServer] ：Client[127.0.0.1:3050]] Connected
+2021-05-29 08:29:49,875 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2021-05-29 08:29:49,977 [5] [INFO ] [GameServer] ：UserLoginRequest: User:123  Pass:123
+2021-05-29 08:29:56,108 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-05-29 08:29:58,059 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:7:jjjj Map:1
+2021-05-29 08:29:58,805 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:7
+2021-05-29 08:30:09,627 [4] [INFO ] [GameServer] ：地图【2】 刷怪【1】 怪物【1001】 等级【1】 在的坐标【1】
+2021-05-29 08:30:09,628 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【2】
+2021-05-29 08:30:09,629 [4] [INFO ] [GameServer] ：地图【2】 刷怪【2】 怪物【1002】 等级【1】 在的坐标【2】
+2021-05-29 08:30:09,629 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【3】
+2021-05-29 08:30:09,629 [4] [INFO ] [GameServer] ：地图【2】 刷怪【3】 怪物【1003】 等级【1】 在的坐标【3】
+2021-05-29 08:30:09,631 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【4】
+2021-05-29 08:30:09,631 [4] [INFO ] [GameServer] ：地图【2】 刷怪【4】 怪物【1005】 等级【1】 在的坐标【4】
+2021-05-29 08:30:09,632 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【5】
+2021-05-29 08:30:09,632 [4] [INFO ] [GameServer] ：地图【3】 刷怪【1】 怪物【1001】 等级【1】 在的坐标【1】
+2021-05-29 08:30:09,632 [4] [INFO ] [GameServer] ：地图【3】 刷怪【2】 怪物【1002】 等级【1】 在的坐标【2】
+2021-05-29 08:30:09,633 [4] [INFO ] [GameServer] ：地图【3】 刷怪【3】 怪物【1003】 等级【1】 在的坐标【3】
+2021-05-29 08:30:09,633 [4] [INFO ] [GameServer] ：地图【3】 刷怪【4】 怪物【1005】 等级【1】 在的坐标【4】
+2021-05-29 08:31:12,586 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:11
+2021-05-29 08:33:03,235 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:11
+2021-05-29 08:34:16,538 [1] [INFO ] [GameServer] ：Game Server Init
+2021-05-29 08:34:16,809 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-05-29 08:34:16,993 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2021-05-29 08:34:16,996 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落入森林
+2021-05-29 08:34:16,997 [1] [ERROR] [GameServer] ：刷怪规则【1】  刷怪点【0】不存在！！！
+2021-05-29 08:34:16,997 [1] [ERROR] [GameServer] ：刷怪规则【2】  刷怪点【0】不存在！！！
+2021-05-29 08:34:16,997 [1] [ERROR] [GameServer] ：刷怪规则【3】  刷怪点【0】不存在！！！
+2021-05-29 08:34:16,997 [1] [ERROR] [GameServer] ：刷怪规则【4】  刷怪点【0】不存在！！！
+2021-05-29 08:34:16,997 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3: 落日森林
+2021-05-29 08:34:16,998 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4: 落日空间
+2021-05-29 08:34:16,999 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-05-29 08:34:17,040 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:34:17,040 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:34:17,040 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:34:17,041 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:34:17,041 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:34:17,041 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:34:17,040 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:34:17,041 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:34:17,113 [1] [WARN ] [GameServer] ：NetService Started
+2021-05-29 08:34:43,084 [3] [WARN ] [GameServer] ：Client[127.0.0.1:3098]] Connected
+2021-05-29 08:34:43,261 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2021-05-29 08:34:43,355 [5] [INFO ] [GameServer] ：UserLoginRequest: User:123  Pass:123
+2021-05-29 08:34:43,543 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2021-05-29 08:34:43,543 [6] [INFO ] [GameServer] ：UserLoginRequest: User:123  Pass:123
+2021-05-29 08:34:43,623 [6] [ERROR] [GameServer] ：Message handler exception:, 正在创建模型，此时不可使用上下文。如果在 OnModelCreating 方法内使用上下文或如果多个线程同时访问同一上下文实例，可能引发此异常。请注意不保证 DbContext 的实例成员和相关类是线程安全的。, EntityFramework,    在 System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   在 System.Data.Entity.Internal.InternalContext.Initialize()
+   在 System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   在 System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   在 System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 GameServer.Services.UserService.OnLogin(NetConnection`1 sender, UserLoginRequest request) 位置 D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 41
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\2.My Git Hub\MMO\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2021-05-29 08:34:48,470 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-05-29 08:34:50,702 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:7:jjjj Map:1
+2021-05-29 08:34:51,806 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:7
+2021-05-29 08:35:07,339 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:11
+2021-05-29 08:35:09,610 [5] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 Network.NetConnection`1.SendResponse() 位置 D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\Network\NetConnection.cs:行号 135
+   在 GameServer.Managers.SkillManager.SkillOpen(NetConnection`1 sender, Int32 id) 位置 D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\Managers\SkillManager.cs:行号 76
+   在 GameServer.Services.SkillService.OnSkillOpen(NetConnection`1 sender, SkillOpenRequest message) 位置 D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\Services\SkillService.cs:行号 28
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\2.My Git Hub\MMO\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2021-05-29 08:35:17,296 [4] [INFO ] [GameServer] ：地图【2】 刷怪【1】 怪物【1001】 等级【1】 在的坐标【1】
+2021-05-29 08:35:17,297 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【2】
+2021-05-29 08:35:17,297 [4] [INFO ] [GameServer] ：地图【2】 刷怪【2】 怪物【1002】 等级【1】 在的坐标【2】
+2021-05-29 08:35:17,300 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【3】
+2021-05-29 08:35:17,300 [4] [INFO ] [GameServer] ：地图【2】 刷怪【3】 怪物【1003】 等级【1】 在的坐标【3】
+2021-05-29 08:35:17,301 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【4】
+2021-05-29 08:35:17,301 [4] [INFO ] [GameServer] ：地图【2】 刷怪【4】 怪物【1005】 等级【1】 在的坐标【4】
+2021-05-29 08:35:17,302 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【5】
+2021-05-29 08:35:17,302 [4] [INFO ] [GameServer] ：地图【3】 刷怪【1】 怪物【1001】 等级【1】 在的坐标【1】
+2021-05-29 08:35:17,302 [4] [INFO ] [GameServer] ：地图【3】 刷怪【2】 怪物【1002】 等级【1】 在的坐标【2】
+2021-05-29 08:35:17,303 [4] [INFO ] [GameServer] ：地图【3】 刷怪【3】 怪物【1003】 等级【1】 在的坐标【3】
+2021-05-29 08:35:17,303 [4] [INFO ] [GameServer] ：地图【3】 刷怪【4】 怪物【1005】 等级【1】 在的坐标【4】
+2021-05-29 08:35:25,055 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:11
+2021-05-29 08:36:02,368 [1] [INFO ] [GameServer] ：Game Server Init
+2021-05-29 08:36:02,729 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-05-29 08:36:02,972 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2021-05-29 08:36:02,975 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落入森林
+2021-05-29 08:36:02,975 [1] [ERROR] [GameServer] ：刷怪规则【1】  刷怪点【0】不存在！！！
+2021-05-29 08:36:02,976 [1] [ERROR] [GameServer] ：刷怪规则【2】  刷怪点【0】不存在！！！
+2021-05-29 08:36:02,976 [1] [ERROR] [GameServer] ：刷怪规则【3】  刷怪点【0】不存在！！！
+2021-05-29 08:36:02,976 [1] [ERROR] [GameServer] ：刷怪规则【4】  刷怪点【0】不存在！！！
+2021-05-29 08:36:02,976 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3: 落日森林
+2021-05-29 08:36:02,976 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4: 落日空间
+2021-05-29 08:36:02,978 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-05-29 08:36:03,010 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:36:03,011 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:36:03,011 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:36:03,012 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:36:03,012 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:36:03,012 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:36:03,013 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:36:03,013 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:36:03,084 [1] [WARN ] [GameServer] ：NetService Started
+2021-05-29 08:36:51,807 [3] [WARN ] [GameServer] ：Client[127.0.0.1:3145]] Connected
+2021-05-29 08:36:51,997 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2021-05-29 08:36:52,101 [5] [INFO ] [GameServer] ：UserLoginRequest: User:123  Pass:123
+2021-05-29 08:36:57,071 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-05-29 08:36:58,820 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:7:jjjj Map:1
+2021-05-29 08:36:59,690 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:7
+2021-05-29 08:37:03,238 [4] [INFO ] [GameServer] ：地图【2】 刷怪【1】 怪物【1001】 等级【1】 在的坐标【1】
+2021-05-29 08:37:03,240 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【2】
+2021-05-29 08:37:03,240 [4] [INFO ] [GameServer] ：地图【2】 刷怪【2】 怪物【1002】 等级【1】 在的坐标【2】
+2021-05-29 08:37:03,240 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【3】
+2021-05-29 08:37:03,241 [4] [INFO ] [GameServer] ：地图【2】 刷怪【3】 怪物【1003】 等级【1】 在的坐标【3】
+2021-05-29 08:37:03,242 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【4】
+2021-05-29 08:37:03,243 [4] [INFO ] [GameServer] ：地图【2】 刷怪【4】 怪物【1005】 等级【1】 在的坐标【4】
+2021-05-29 08:37:03,244 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【5】
+2021-05-29 08:37:03,244 [4] [INFO ] [GameServer] ：地图【3】 刷怪【1】 怪物【1001】 等级【1】 在的坐标【1】
+2021-05-29 08:37:03,245 [4] [INFO ] [GameServer] ：地图【3】 刷怪【2】 怪物【1002】 等级【1】 在的坐标【2】
+2021-05-29 08:37:03,246 [4] [INFO ] [GameServer] ：地图【3】 刷怪【3】 怪物【1003】 等级【1】 在的坐标【3】
+2021-05-29 08:37:03,247 [4] [INFO ] [GameServer] ：地图【3】 刷怪【4】 怪物【1005】 等级【1】 在的坐标【4】
+2021-05-29 08:37:07,464 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:11
+2021-05-29 08:37:39,109 [1] [INFO ] [GameServer] ：Game Server Init
+2021-05-29 08:37:39,406 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-05-29 08:37:39,609 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2021-05-29 08:37:39,612 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落入森林
+2021-05-29 08:37:39,612 [1] [ERROR] [GameServer] ：刷怪规则【1】  刷怪点【0】不存在！！！
+2021-05-29 08:37:39,613 [1] [ERROR] [GameServer] ：刷怪规则【2】  刷怪点【0】不存在！！！
+2021-05-29 08:37:39,613 [1] [ERROR] [GameServer] ：刷怪规则【3】  刷怪点【0】不存在！！！
+2021-05-29 08:37:39,613 [1] [ERROR] [GameServer] ：刷怪规则【4】  刷怪点【0】不存在！！！
+2021-05-29 08:37:39,613 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3: 落日森林
+2021-05-29 08:37:39,613 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4: 落日空间
+2021-05-29 08:37:39,615 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-05-29 08:37:39,661 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:37:39,661 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:37:39,662 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:37:39,662 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:37:39,662 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:37:39,662 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:37:39,662 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:37:39,662 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 08:37:39,734 [1] [WARN ] [GameServer] ：NetService Started
+2021-05-29 08:37:53,907 [3] [WARN ] [GameServer] ：Client[127.0.0.1:3161]] Connected
+2021-05-29 08:37:54,100 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2021-05-29 08:37:54,202 [5] [INFO ] [GameServer] ：UserLoginRequest: User:123  Pass:123
+2021-05-29 08:37:59,045 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-05-29 08:38:00,591 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:7:jjjj Map:1
+2021-05-29 08:38:01,299 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:7
+2021-05-29 08:38:07,639 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:11
+2021-05-29 08:38:09,335 [5] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Managers.SkillManager.SkillOpen(NetConnection`1 sender, Int32 id) 位置 D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\Managers\SkillManager.cs:行号 76
+   在 GameServer.Services.SkillService.OnSkillOpen(NetConnection`1 sender, SkillOpenRequest message) 位置 D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\Services\SkillService.cs:行号 28
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\2.My Git Hub\MMO\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2021-05-29 08:38:39,864 [4] [INFO ] [GameServer] ：地图【2】 刷怪【1】 怪物【1001】 等级【1】 在的坐标【1】
+2021-05-29 08:38:39,866 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【2】
+2021-05-29 08:38:39,866 [4] [INFO ] [GameServer] ：地图【2】 刷怪【2】 怪物【1002】 等级【1】 在的坐标【2】
+2021-05-29 08:38:39,866 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【3】
+2021-05-29 08:38:39,867 [4] [INFO ] [GameServer] ：地图【2】 刷怪【3】 怪物【1003】 等级【1】 在的坐标【3】
+2021-05-29 08:38:39,867 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【4】
+2021-05-29 08:38:39,868 [4] [INFO ] [GameServer] ：地图【2】 刷怪【4】 怪物【1005】 等级【1】 在的坐标【4】
+2021-05-29 08:38:39,868 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【5】
+2021-05-29 08:38:39,869 [4] [INFO ] [GameServer] ：地图【3】 刷怪【1】 怪物【1001】 等级【1】 在的坐标【1】
+2021-05-29 08:38:39,869 [4] [INFO ] [GameServer] ：地图【3】 刷怪【2】 怪物【1002】 等级【1】 在的坐标【2】
+2021-05-29 08:38:39,870 [4] [INFO ] [GameServer] ：地图【3】 刷怪【3】 怪物【1003】 等级【1】 在的坐标【3】
+2021-05-29 08:38:39,870 [4] [INFO ] [GameServer] ：地图【3】 刷怪【4】 怪物【1005】 等级【1】 在的坐标【4】
+2021-05-29 08:38:47,645 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:11
+2021-05-29 14:25:41,893 [1] [INFO ] [GameServer] ：Game Server Init
+2021-05-29 14:25:42,252 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-05-29 14:25:42,502 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2021-05-29 14:25:42,505 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落入森林
+2021-05-29 14:25:42,506 [1] [ERROR] [GameServer] ：刷怪规则【1】  刷怪点【0】不存在！！！
+2021-05-29 14:25:42,506 [1] [ERROR] [GameServer] ：刷怪规则【2】  刷怪点【0】不存在！！！
+2021-05-29 14:25:42,506 [1] [ERROR] [GameServer] ：刷怪规则【3】  刷怪点【0】不存在！！！
+2021-05-29 14:25:42,506 [1] [ERROR] [GameServer] ：刷怪规则【4】  刷怪点【0】不存在！！！
+2021-05-29 14:25:42,507 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3: 落日森林
+2021-05-29 14:25:42,507 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4: 落日空间
+2021-05-29 14:25:42,509 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-05-29 14:25:42,555 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:25:42,556 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:25:42,557 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:25:42,557 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:25:42,557 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:25:42,575 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:25:42,575 [16] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:25:42,578 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:25:42,625 [1] [WARN ] [GameServer] ：NetService Started
+2021-05-29 14:25:53,665 [3] [WARN ] [GameServer] ：Client[127.0.0.1:7052]] Connected
+2021-05-29 14:25:53,735 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2021-05-29 14:25:53,831 [5] [INFO ] [GameServer] ：UserLoginRequest: User:123  Pass:123
+2021-05-29 14:26:03,093 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-05-29 14:26:04,814 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:7:jjjj Map:1
+2021-05-29 14:26:05,554 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:7
+2021-05-29 14:26:11,631 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:11
+2021-05-29 14:26:17,646 [5] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Managers.SkillManager.SkillOpen(NetConnection`1 sender, Int32 id) 位置 D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\Managers\SkillManager.cs:行号 77
+   在 GameServer.Services.SkillService.OnSkillOpen(NetConnection`1 sender, SkillOpenRequest message) 位置 D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\Services\SkillService.cs:行号 28
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\2.My Git Hub\MMO\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2021-05-29 14:26:42,741 [4] [INFO ] [GameServer] ：地图【2】 刷怪【1】 怪物【1001】 等级【1】 在的坐标【1】
+2021-05-29 14:26:42,743 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【2】
+2021-05-29 14:26:42,743 [4] [INFO ] [GameServer] ：地图【2】 刷怪【2】 怪物【1002】 等级【1】 在的坐标【2】
+2021-05-29 14:26:42,744 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【3】
+2021-05-29 14:26:42,744 [4] [INFO ] [GameServer] ：地图【2】 刷怪【3】 怪物【1003】 等级【1】 在的坐标【3】
+2021-05-29 14:26:42,745 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【4】
+2021-05-29 14:26:42,745 [4] [INFO ] [GameServer] ：地图【2】 刷怪【4】 怪物【1005】 等级【1】 在的坐标【4】
+2021-05-29 14:26:42,747 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【5】
+2021-05-29 14:26:42,748 [4] [INFO ] [GameServer] ：地图【3】 刷怪【1】 怪物【1001】 等级【1】 在的坐标【1】
+2021-05-29 14:26:42,748 [4] [INFO ] [GameServer] ：地图【3】 刷怪【2】 怪物【1002】 等级【1】 在的坐标【2】
+2021-05-29 14:26:42,749 [4] [INFO ] [GameServer] ：地图【3】 刷怪【3】 怪物【1003】 等级【1】 在的坐标【3】
+2021-05-29 14:26:42,750 [4] [INFO ] [GameServer] ：地图【3】 刷怪【4】 怪物【1005】 等级【1】 在的坐标【4】
+2021-05-29 14:27:26,317 [1] [INFO ] [GameServer] ：Game Server Init
+2021-05-29 14:27:26,635 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-05-29 14:27:26,861 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2021-05-29 14:27:26,864 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落入森林
+2021-05-29 14:27:26,865 [1] [ERROR] [GameServer] ：刷怪规则【1】  刷怪点【0】不存在！！！
+2021-05-29 14:27:26,866 [1] [ERROR] [GameServer] ：刷怪规则【2】  刷怪点【0】不存在！！！
+2021-05-29 14:27:26,866 [1] [ERROR] [GameServer] ：刷怪规则【3】  刷怪点【0】不存在！！！
+2021-05-29 14:27:26,866 [1] [ERROR] [GameServer] ：刷怪规则【4】  刷怪点【0】不存在！！！
+2021-05-29 14:27:26,866 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3: 落日森林
+2021-05-29 14:27:26,866 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4: 落日空间
+2021-05-29 14:27:26,868 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-05-29 14:27:26,960 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:27:26,960 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:27:26,960 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:27:26,960 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:27:26,961 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:27:26,961 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:27:26,962 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:27:26,963 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:27:27,024 [1] [WARN ] [GameServer] ：NetService Started
+2021-05-29 14:27:41,195 [3] [WARN ] [GameServer] ：Client[127.0.0.1:7093]] Connected
+2021-05-29 14:27:41,262 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2021-05-29 14:27:41,365 [5] [INFO ] [GameServer] ：UserLoginRequest: User:123  Pass:123
+2021-05-29 14:27:45,843 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-05-29 14:27:47,162 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:7:jjjj Map:1
+2021-05-29 14:27:48,421 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:7
+2021-05-29 14:27:52,769 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:11
+2021-05-29 14:27:58,711 [5] [ERROR] [GameServer] ：Message handler exception:, 未将对象引用设置到对象的实例。, GameServer,    在 GameServer.Managers.SkillManager.SkillOpen(NetConnection`1 sender, Int32 id) 位置 D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\Managers\SkillManager.cs:行号 77
+   在 GameServer.Services.SkillService.OnSkillOpen(NetConnection`1 sender, SkillOpenRequest message) 位置 D:\2.My Git Hub\MMO\Src\Server\GameServer\GameServer\Services\SkillService.cs:行号 28
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\2.My Git Hub\MMO\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2021-05-29 14:28:23,405 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:11
+2021-05-29 14:28:27,204 [4] [INFO ] [GameServer] ：地图【2】 刷怪【1】 怪物【1001】 等级【1】 在的坐标【1】
+2021-05-29 14:28:32,456 [1] [INFO ] [GameServer] ：Game Server Init
+2021-05-29 14:28:32,634 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-05-29 14:28:32,818 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2021-05-29 14:28:32,820 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落入森林
+2021-05-29 14:28:32,821 [1] [ERROR] [GameServer] ：刷怪规则【1】  刷怪点【0】不存在！！！
+2021-05-29 14:28:32,821 [1] [ERROR] [GameServer] ：刷怪规则【2】  刷怪点【0】不存在！！！
+2021-05-29 14:28:32,821 [1] [ERROR] [GameServer] ：刷怪规则【3】  刷怪点【0】不存在！！！
+2021-05-29 14:28:32,821 [1] [ERROR] [GameServer] ：刷怪规则【4】  刷怪点【0】不存在！！！
+2021-05-29 14:28:32,821 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3: 落日森林
+2021-05-29 14:28:32,822 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4: 落日空间
+2021-05-29 14:28:32,823 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-05-29 14:28:32,829 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:28:32,862 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:28:32,862 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:28:32,866 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:28:32,864 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:28:32,864 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:28:32,866 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:28:32,891 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:28:32,893 [3] [WARN ] [GameServer] ：Client[127.0.0.1:7102]] Connected
+2021-05-29 14:28:32,936 [1] [WARN ] [GameServer] ：NetService Started
+2021-05-29 14:28:33,929 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2021-05-29 14:28:41,166 [3] [WARN ] [GameServer] ：Client[127.0.0.1:7109]] Connected
+2021-05-29 14:28:41,240 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2021-05-29 14:28:41,342 [5] [INFO ] [GameServer] ：UserLoginRequest: User:123  Pass:123
+2021-05-29 14:28:45,966 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-05-29 14:28:48,164 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:7:jjjj Map:1
+2021-05-29 14:28:49,824 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:7
+2021-05-29 14:28:58,897 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:11
+2021-05-29 14:39:25,913 [1] [INFO ] [GameServer] ：Game Server Init
+2021-05-29 14:39:26,231 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-05-29 14:39:26,569 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2021-05-29 14:39:26,574 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落入森林
+2021-05-29 14:39:26,575 [1] [ERROR] [GameServer] ：刷怪规则【1】  刷怪点【0】不存在！！！
+2021-05-29 14:39:26,575 [1] [ERROR] [GameServer] ：刷怪规则【2】  刷怪点【0】不存在！！！
+2021-05-29 14:39:26,576 [1] [ERROR] [GameServer] ：刷怪规则【3】  刷怪点【0】不存在！！！
+2021-05-29 14:39:26,576 [1] [ERROR] [GameServer] ：刷怪规则【4】  刷怪点【0】不存在！！！
+2021-05-29 14:39:26,576 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3: 落日森林
+2021-05-29 14:39:26,576 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4: 落日空间
+2021-05-29 14:39:26,579 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-05-29 14:39:26,684 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:39:26,685 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:39:26,695 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:39:26,699 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:39:26,730 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:39:26,731 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:39:26,758 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:39:26,758 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:39:26,794 [1] [WARN ] [GameServer] ：NetService Started
+2021-05-29 14:39:37,472 [3] [WARN ] [GameServer] ：Client[127.0.0.1:7490]] Connected
+2021-05-29 14:39:37,539 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2021-05-29 14:39:37,644 [5] [INFO ] [GameServer] ：UserLoginRequest: User:123  Pass:123
+2021-05-29 14:39:42,199 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-05-29 14:39:44,061 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:7:jjjj Map:1
+2021-05-29 14:39:45,033 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:7
+2021-05-29 14:39:50,663 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:11
+2021-05-29 14:41:30,863 [4] [INFO ] [GameServer] ：地图【2】 刷怪【1】 怪物【1001】 等级【1】 在的坐标【1】
+2021-05-29 14:41:45,110 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【2】
+2021-05-29 14:41:45,111 [4] [INFO ] [GameServer] ：地图【2】 刷怪【2】 怪物【1002】 等级【1】 在的坐标【2】
+2021-05-29 14:41:45,112 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【3】
+2021-05-29 14:41:45,113 [4] [INFO ] [GameServer] ：地图【2】 刷怪【3】 怪物【1003】 等级【1】 在的坐标【3】
+2021-05-29 14:41:45,114 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【4】
+2021-05-29 14:41:45,114 [4] [INFO ] [GameServer] ：地图【2】 刷怪【4】 怪物【1005】 等级【1】 在的坐标【4】
+2021-05-29 14:41:45,115 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【5】
+2021-05-29 14:41:45,115 [4] [INFO ] [GameServer] ：地图【3】 刷怪【1】 怪物【1001】 等级【1】 在的坐标【1】
+2021-05-29 14:41:45,116 [4] [INFO ] [GameServer] ：地图【3】 刷怪【2】 怪物【1002】 等级【1】 在的坐标【2】
+2021-05-29 14:41:45,117 [4] [INFO ] [GameServer] ：地图【3】 刷怪【3】 怪物【1003】 等级【1】 在的坐标【3】
+2021-05-29 14:41:45,118 [4] [INFO ] [GameServer] ：地图【3】 刷怪【4】 怪物【1005】 等级【1】 在的坐标【4】
+2021-05-29 14:42:36,863 [10] [WARN ] [GameServer] ：Client[] DataReceived Len:11
+2021-05-29 14:45:57,650 [1] [INFO ] [GameServer] ：Game Server Init
+2021-05-29 14:45:57,908 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-05-29 14:45:58,091 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2021-05-29 14:45:58,094 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落入森林
+2021-05-29 14:45:58,094 [1] [ERROR] [GameServer] ：刷怪规则【1】  刷怪点【0】不存在！！！
+2021-05-29 14:45:58,094 [1] [ERROR] [GameServer] ：刷怪规则【2】  刷怪点【0】不存在！！！
+2021-05-29 14:45:58,094 [1] [ERROR] [GameServer] ：刷怪规则【3】  刷怪点【0】不存在！！！
+2021-05-29 14:45:58,094 [1] [ERROR] [GameServer] ：刷怪规则【4】  刷怪点【0】不存在！！！
+2021-05-29 14:45:58,095 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3: 落日森林
+2021-05-29 14:45:58,095 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4: 落日空间
+2021-05-29 14:45:58,096 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-05-29 14:45:58,128 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:45:58,129 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:45:58,129 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:45:58,130 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:45:58,130 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:45:58,130 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:45:58,130 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:45:58,130 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:45:58,199 [1] [WARN ] [GameServer] ：NetService Started
+2021-05-29 14:46:08,366 [3] [WARN ] [GameServer] ：Client[127.0.0.1:7597]] Connected
+2021-05-29 14:46:08,541 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2021-05-29 14:46:08,651 [5] [INFO ] [GameServer] ：UserLoginRequest: User:123  Pass:123
+2021-05-29 14:46:13,664 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-05-29 14:46:15,485 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:7:jjjj Map:1
+2021-05-29 14:46:16,358 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:7
+2021-05-29 14:46:23,925 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:11
+2021-05-29 14:48:43,235 [1] [INFO ] [GameServer] ：Game Server Init
+2021-05-29 14:48:43,531 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-05-29 14:48:43,751 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2021-05-29 14:48:43,754 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落入森林
+2021-05-29 14:48:43,755 [1] [ERROR] [GameServer] ：刷怪规则【1】  刷怪点【0】不存在！！！
+2021-05-29 14:48:43,757 [1] [ERROR] [GameServer] ：刷怪规则【2】  刷怪点【0】不存在！！！
+2021-05-29 14:48:43,760 [1] [ERROR] [GameServer] ：刷怪规则【3】  刷怪点【0】不存在！！！
+2021-05-29 14:48:43,760 [1] [ERROR] [GameServer] ：刷怪规则【4】  刷怪点【0】不存在！！！
+2021-05-29 14:48:43,760 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3: 落日森林
+2021-05-29 14:48:43,760 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4: 落日空间
+2021-05-29 14:48:43,762 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-05-29 14:48:43,834 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:48:43,834 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:48:43,834 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:48:43,834 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:48:43,834 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:48:43,834 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:48:43,835 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:48:43,835 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:48:43,885 [1] [WARN ] [GameServer] ：NetService Started
+2021-05-29 14:49:03,953 [3] [WARN ] [GameServer] ：Client[127.0.0.1:7697]] Connected
+2021-05-29 14:49:04,130 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2021-05-29 14:49:04,227 [5] [INFO ] [GameServer] ：UserLoginRequest: User:123  Pass:123
+2021-05-29 14:49:09,665 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-05-29 14:49:11,318 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:7:jjjj Map:1
+2021-05-29 14:49:12,968 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:7
+2021-05-29 14:49:38,165 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:11
+2021-05-29 14:49:48,660 [4] [INFO ] [GameServer] ：地图【2】 刷怪【1】 怪物【1001】 等级【1】 在的坐标【1】
+2021-05-29 14:49:48,662 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【2】
+2021-05-29 14:49:48,662 [4] [INFO ] [GameServer] ：地图【2】 刷怪【2】 怪物【1002】 等级【1】 在的坐标【2】
+2021-05-29 14:49:48,663 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【3】
+2021-05-29 14:49:48,663 [4] [INFO ] [GameServer] ：地图【2】 刷怪【3】 怪物【1003】 等级【1】 在的坐标【3】
+2021-05-29 14:49:48,664 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【4】
+2021-05-29 14:49:48,664 [4] [INFO ] [GameServer] ：地图【2】 刷怪【4】 怪物【1005】 等级【1】 在的坐标【4】
+2021-05-29 14:49:48,664 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【5】
+2021-05-29 14:49:48,665 [4] [INFO ] [GameServer] ：地图【3】 刷怪【1】 怪物【1001】 等级【1】 在的坐标【1】
+2021-05-29 14:49:48,665 [4] [INFO ] [GameServer] ：地图【3】 刷怪【2】 怪物【1002】 等级【1】 在的坐标【2】
+2021-05-29 14:49:48,666 [4] [INFO ] [GameServer] ：地图【3】 刷怪【3】 怪物【1003】 等级【1】 在的坐标【3】
+2021-05-29 14:49:48,666 [4] [INFO ] [GameServer] ：地图【3】 刷怪【4】 怪物【1005】 等级【1】 在的坐标【4】
+2021-05-29 14:53:49,776 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:11
+2021-05-29 14:56:40,041 [1] [INFO ] [GameServer] ：Game Server Init
+2021-05-29 14:56:40,306 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-05-29 14:56:40,524 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2021-05-29 14:56:40,531 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落入森林
+2021-05-29 14:56:40,532 [1] [ERROR] [GameServer] ：刷怪规则【1】  刷怪点【0】不存在！！！
+2021-05-29 14:56:40,532 [1] [ERROR] [GameServer] ：刷怪规则【2】  刷怪点【0】不存在！！！
+2021-05-29 14:56:40,533 [1] [ERROR] [GameServer] ：刷怪规则【3】  刷怪点【0】不存在！！！
+2021-05-29 14:56:40,533 [1] [ERROR] [GameServer] ：刷怪规则【4】  刷怪点【0】不存在！！！
+2021-05-29 14:56:40,533 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3: 落日森林
+2021-05-29 14:56:40,534 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4: 落日空间
+2021-05-29 14:56:40,536 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-05-29 14:56:40,602 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:56:40,603 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:56:40,603 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:56:40,604 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:56:40,604 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:56:40,605 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:56:40,605 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:56:40,605 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 14:56:40,653 [1] [WARN ] [GameServer] ：NetService Started
+2021-05-29 14:56:52,255 [3] [WARN ] [GameServer] ：Client[127.0.0.1:7802]] Connected
+2021-05-29 14:56:52,448 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2021-05-29 14:56:52,556 [5] [INFO ] [GameServer] ：UserLoginRequest: User:123  Pass:123
+2021-05-29 14:56:57,595 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-05-29 14:56:59,152 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:7:jjjj Map:1
+2021-05-29 14:56:59,739 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:7
+2021-05-29 14:57:05,920 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:11
+2021-05-29 14:57:57,729 [4] [INFO ] [GameServer] ：地图【2】 刷怪【1】 怪物【1001】 等级【1】 在的坐标【1】
+2021-05-29 14:57:57,731 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【2】
+2021-05-29 14:57:57,731 [4] [INFO ] [GameServer] ：地图【2】 刷怪【2】 怪物【1002】 等级【1】 在的坐标【2】
+2021-05-29 14:57:57,732 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【3】
+2021-05-29 14:57:57,732 [4] [INFO ] [GameServer] ：地图【2】 刷怪【3】 怪物【1003】 等级【1】 在的坐标【3】
+2021-05-29 14:57:57,733 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【4】
+2021-05-29 14:57:57,733 [4] [INFO ] [GameServer] ：地图【2】 刷怪【4】 怪物【1005】 等级【1】 在的坐标【4】
+2021-05-29 14:57:57,733 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【5】
+2021-05-29 14:57:57,734 [4] [INFO ] [GameServer] ：地图【3】 刷怪【1】 怪物【1001】 等级【1】 在的坐标【1】
+2021-05-29 14:57:57,734 [4] [INFO ] [GameServer] ：地图【3】 刷怪【2】 怪物【1002】 等级【1】 在的坐标【2】
+2021-05-29 14:57:57,734 [4] [INFO ] [GameServer] ：地图【3】 刷怪【3】 怪物【1003】 等级【1】 在的坐标【3】
+2021-05-29 14:57:57,735 [4] [INFO ] [GameServer] ：地图【3】 刷怪【4】 怪物【1005】 等级【1】 在的坐标【4】
+2021-05-29 14:58:09,269 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:11
+2021-05-29 14:58:31,947 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-05-29 14:58:31,949 [5] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:7
+2021-05-29 14:58:46,746 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:19
+2021-05-29 14:58:46,748 [5] [INFO ] [GameServer] ：UserCreatCharacterRequest: 角色名字:xcvbxcv  角色类型:Archer
+2021-05-29 14:58:48,996 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-05-29 14:58:50,618 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:8:xcvbxcv Map:1
+2021-05-29 14:58:51,381 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:8
+2021-05-29 14:58:57,517 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:11
+2021-05-29 15:00:30,231 [1] [INFO ] [GameServer] ：Game Server Init
+2021-05-29 15:00:30,562 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-05-29 15:00:30,848 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:布林镇
+2021-05-29 15:00:30,851 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:落入森林
+2021-05-29 15:00:30,852 [1] [ERROR] [GameServer] ：刷怪规则【1】  刷怪点【0】不存在！！！
+2021-05-29 15:00:30,852 [1] [ERROR] [GameServer] ：刷怪规则【2】  刷怪点【0】不存在！！！
+2021-05-29 15:00:30,852 [1] [ERROR] [GameServer] ：刷怪规则【3】  刷怪点【0】不存在！！！
+2021-05-29 15:00:30,852 [1] [ERROR] [GameServer] ：刷怪规则【4】  刷怪点【0】不存在！！！
+2021-05-29 15:00:30,852 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3: 落日森林
+2021-05-29 15:00:30,853 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4: 落日空间
+2021-05-29 15:00:30,855 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-05-29 15:00:30,874 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 15:00:30,875 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 15:00:30,886 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 15:00:30,886 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 15:00:30,889 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 15:00:30,889 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 15:00:30,891 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 15:00:30,891 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-05-29 15:00:30,973 [1] [WARN ] [GameServer] ：NetService Started
+2021-05-29 15:00:38,118 [3] [WARN ] [GameServer] ：Client[127.0.0.1:7866]] Connected
+2021-05-29 15:00:38,302 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2021-05-29 15:00:38,425 [5] [INFO ] [GameServer] ：UserLoginRequest: User:123  Pass:123
+2021-05-29 15:00:43,650 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-05-29 15:00:44,794 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:8:xcvbxcv Map:1
+2021-05-29 15:00:47,743 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:8
+2021-05-29 15:00:56,170 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:11
+2021-05-29 15:01:53,707 [4] [INFO ] [GameServer] ：地图【2】 刷怪【1】 怪物【1001】 等级【1】 在的坐标【1】
+2021-05-29 15:01:55,892 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【2】
+2021-05-29 15:01:55,893 [4] [INFO ] [GameServer] ：地图【2】 刷怪【2】 怪物【1002】 等级【1】 在的坐标【2】
+2021-05-29 15:01:55,894 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【3】
+2021-05-29 15:01:55,894 [4] [INFO ] [GameServer] ：地图【2】 刷怪【3】 怪物【1003】 等级【1】 在的坐标【3】
+2021-05-29 15:01:55,895 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【4】
+2021-05-29 15:01:55,896 [4] [INFO ] [GameServer] ：地图【2】 刷怪【4】 怪物【1005】 等级【1】 在的坐标【4】
+2021-05-29 15:01:55,896 [4] [INFO ] [GameServer] ：怪物进入地图【2】  怪物的ID【5】
+2021-05-29 15:01:55,897 [4] [INFO ] [GameServer] ：地图【3】 刷怪【1】 怪物【1001】 等级【1】 在的坐标【1】
+2021-05-29 15:01:55,897 [4] [INFO ] [GameServer] ：地图【3】 刷怪【2】 怪物【1002】 等级【1】 在的坐标【2】
+2021-05-29 15:01:55,898 [4] [INFO ] [GameServer] ：地图【3】 刷怪【3】 怪物【1003】 等级【1】 在的坐标【3】
+2021-05-29 15:01:55,898 [4] [INFO ] [GameServer] ：地图【3】 刷怪【4】 怪物【1005】 等级【1】 在的坐标【4】
+2021-05-29 15:02:34,045 [17] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:8
+2021-05-29 15:02:34,047 [17] [WARN ] [GameServer] ：Client[] Disconnected
