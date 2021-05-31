@@ -5,7 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TeamService : Singleton<TeamManager> {
+public class TeamService : Singleton<TeamService> {
 
 	public void Init()
 	{

@@ -1,42 +1,312 @@
-2021-05-29 15:00:25,290 [ 1] INFO  Unity: LoadingManager start
-2021-05-29 15:00:38,071 [ 1] INFO  Unity: UserLoginRequest::user :123 psw:123
-2021-05-29 15:00:38,079 [ 1] INFO  Unity: ConnectToServer() Start 
-2021-05-29 15:00:38,091 [ 1] INFO  Unity: DoConnect
-2021-05-29 15:00:38,092 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2021-05-29 15:00:38,106 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2021-05-31 16:20:26,271 [ 1] INFO  Unity: LoadingManager start
+2021-05-31 16:20:30,003 [ 1] INFO  Unity: UserLoginRequest::user :1234 psw:1234
+2021-05-31 16:20:30,005 [ 1] INFO  Unity: ConnectToServer() Start 
+2021-05-31 16:20:30,011 [ 1] INFO  Unity: DoConnect
+2021-05-31 16:20:30,013 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2021-05-31 16:20:30,020 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2021-05-29 15:00:38,119 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2021-05-29 15:00:40,627 [ 1] INFO  Unity: OnUserLogin:Result:Success Errormsg:[None]
-2021-05-29 15:00:40,633 [ 1] INFO  Unity: LoadLevel: CharSelect
-2021-05-29 15:00:40,876 [ 1] INFO  Unity: LevelLoadCompleted:1
-2021-05-29 15:00:40,880 [ 1] INFO  Unity: DataManager > DataManager()
-2021-05-29 15:00:42,983 [ 1] INFO  Unity: Select Char:[8]xcvbxcv[Archer]
-2021-05-29 15:00:43,643 [ 1] INFO  Unity: 7
-2021-05-29 15:00:43,644 [ 1] INFO  Unity: UserGameEnterRequest::characterId :7
-2021-05-29 15:00:47,764 [ 1] INFO  Unity: OnGameEnter:Success [None]
-2021-05-29 15:00:47,772 [ 1] INFO  Unity: 物品管理器初始化 物品id 1 数量：20
-2021-05-29 15:00:47,773 [ 1] INFO  Unity: 物品管理器初始化 物品id 2 数量：20
-2021-05-29 15:00:49,039 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2021-05-29 15:00:49,045 [ 1] INFO  Unity: AddCharacter:8:xcvbxcv Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2021-05-29 15:00:49,046 [ 1] INFO  Unity: LoadLevel: MainCity
-2021-05-29 15:00:49,047 [ 1] INFO  Unity: OnMapCharacterEnter:
-2021-05-29 15:00:49,048 [ 1] INFO  Unity: LoadLevel: MainCity
-2021-05-29 15:00:49,974 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+2021-05-31 16:20:30,026 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2021-05-31 16:20:30,172 [ 1] INFO  Unity: OnUserLogin:Result:Success Errormsg:[None]
+2021-05-31 16:20:30,174 [ 1] INFO  Unity: LoadLevel: CharSelect
+2021-05-31 16:20:30,406 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-05-31 16:20:30,408 [ 1] INFO  Unity: DataManager > DataManager()
+2021-05-31 16:20:31,696 [ 1] INFO  Unity: Select Char:[12]光敏之神[Wizard]
+2021-05-31 16:20:32,279 [ 1] INFO  Unity: 2
+2021-05-31 16:20:32,280 [ 1] INFO  Unity: UserGameEnterRequest::characterId :2
+2021-05-31 16:20:32,319 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2021-05-31 16:20:32,322 [ 1] INFO  Unity: 物品管理器初始化 物品id 1 数量：20
+2021-05-31 16:20:32,323 [ 1] INFO  Unity: 物品管理器初始化 物品id 2 数量：20
+2021-05-31 16:20:32,334 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:2
+2021-05-31 16:20:32,336 [ 1] INFO  Unity: AddCharacter:11:女骑士 Map:1 Entity:(11:pos:(5000,4000,820),dir:(-48,-88,0),spd:0
+2021-05-31 16:20:32,337 [ 1] INFO  Unity: AddCharacter:12:光敏之神 Map:1 Entity:(12:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2021-05-31 16:20:32,338 [ 1] INFO  Unity: LoadLevel: MainCity
+2021-05-31 16:20:32,339 [ 1] INFO  Unity: OnMapCharacterEnter:
+2021-05-31 16:20:32,340 [ 1] INFO  Unity: LoadLevel: MainCity
+2021-05-31 16:20:32,466 [ 1] INFO  Unity: 好友列表响应
+2021-05-31 16:20:32,485 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(4957,3978,804),dir:(-48,-88,0),spd:0
 
-2021-05-29 15:00:49,988 [ 1] INFO  Unity: Archer OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
-2021-05-29 15:00:50,130 [ 1] INFO  Unity: LevelLoadCompleted:1
-2021-05-29 15:00:50,131 [ 1] INFO  Unity: 埃布尔
-2021-05-29 15:00:50,137 [ 1] INFO  Unity: 奥德利奇
-2021-05-29 15:00:50,137 [ 1] INFO  Unity: 莉莉丝
-2021-05-29 15:00:50,138 [ 1] INFO  Unity: 多丽丝
-2021-05-29 15:00:50,616 [ 1] INFO  Unity: LevelLoadCompleted:1
-2021-05-29 15:00:50,617 [ 1] INFO  Unity: 埃布尔
-2021-05-29 15:00:50,617 [ 1] INFO  Unity: 奥德利奇
-2021-05-29 15:00:50,618 [ 1] INFO  Unity: 莉莉丝
-2021-05-29 15:00:50,618 [ 1] INFO  Unity: 多丽丝
-2021-05-29 15:02:34,038 [ 1] INFO  Unity: Character_8_xcvbxcv OnDestroy :ID:1 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
-2021-05-29 15:02:34,041 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2021-05-29 15:02:34,042 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2021-05-31 16:20:33,567 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+
+2021-05-31 16:20:33,574 [ 1] INFO  Unity: Archer OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-05-31 16:20:33,575 [ 1] INFO  Unity: Wizard OnDestroy :ID:0 POS:(0, 0, 0) DIR:(0, 100, 0) SPD:0 
+2021-05-31 16:20:33,717 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-05-31 16:20:33,720 [ 1] INFO  Unity: 埃布尔
+2021-05-31 16:20:33,721 [ 1] INFO  Unity: 奥德利奇
+2021-05-31 16:20:33,722 [ 1] INFO  Unity: 莉莉丝
+2021-05-31 16:20:33,723 [ 1] INFO  Unity: 多丽丝
+2021-05-31 16:20:34,364 [ 1] INFO  Unity: LevelLoadCompleted:1
+2021-05-31 16:20:34,364 [ 1] INFO  Unity: 埃布尔
+2021-05-31 16:20:34,365 [ 1] INFO  Unity: 奥德利奇
+2021-05-31 16:20:34,366 [ 1] INFO  Unity: 莉莉丝
+2021-05-31 16:20:34,368 [ 1] INFO  Unity: 多丽丝
+2021-05-31 16:20:34,589 [ 1] INFO  Unity: MoveForward
+2021-05-31 16:20:35,277 [ 1] INFO  Unity: Stop
+2021-05-31 16:20:35,293 [ 1] INFO  Unity: SetDirection:(98, -18, 0)
+2021-05-31 16:20:35,393 [ 1] INFO  Unity: SetDirection:(94, -35, 0)
+2021-05-31 16:20:35,492 [ 1] INFO  Unity: SetDirection:(85, -53, 0)
+2021-05-31 16:20:35,639 [ 1] INFO  Unity: SetDirection:(74, -67, 0)
+2021-05-31 16:20:38,401 [ 1] INFO  Unity: 发送组队邀请
+2021-05-31 16:20:44,577 [ 1] INFO  Unity: 好友列表响应
+2021-05-31 16:20:59,383 [ 1] INFO  Unity: 发送组队响应
+2021-05-31 16:20:59,404 [ 1] INFO  Unity: 好友列表响应
+2021-05-31 16:20:59,407 [ 1] INFO  Unity: 更新队伍信息
+2021-05-31 16:21:15,870 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(4957, 3978, 804) DIR:(-30, -95, 0) SPD:0
+2021-05-31 16:21:15,871 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(4957,3978,804),dir:(-30,-95,0),spd:0
+
+2021-05-31 16:21:15,971 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(4957, 3978, 804) DIR:(-10, -100, 0) SPD:0
+2021-05-31 16:21:15,972 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(4957,3978,804),dir:(-10,-100,0),spd:0
+
+2021-05-31 16:21:16,054 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(4957, 3978, 804) DIR:(8, -100, 0) SPD:0
+2021-05-31 16:21:16,054 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(4957,3978,804),dir:(8,-100,0),spd:0
+
+2021-05-31 16:21:16,153 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(4957, 3978, 804) DIR:(28, -96, 0) SPD:0
+2021-05-31 16:21:16,154 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(4957,3978,804),dir:(28,-96,0),spd:0
+
+2021-05-31 16:21:16,236 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(4957, 3978, 804) DIR:(45, -90, 0) SPD:0
+2021-05-31 16:21:16,237 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(4957,3978,804),dir:(45,-90,0),spd:0
+
+2021-05-31 16:21:16,336 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(4957, 3978, 804) DIR:(62, -78, 0) SPD:0
+2021-05-31 16:21:16,337 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(4957,3978,804),dir:(62,-78,0),spd:0
+
+2021-05-31 16:21:16,453 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(4957, 3978, 804) DIR:(76, -65, 0) SPD:0
+2021-05-31 16:21:16,454 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(4957,3978,804),dir:(76,-65,0),spd:0
+
+2021-05-31 16:21:16,668 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(4957, 3978, 804) DIR:(76, -65, 0) SPD:300
+2021-05-31 16:21:16,669 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:MoveFwd entity:(11:pos:(4957,3978,804),dir:(76,-65,0),spd:300
+
+2021-05-31 16:21:16,701 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(4965, 3972, 804) DIR:(62, -79, 0) SPD:300
+2021-05-31 16:21:16,701 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(4965,3972,804),dir:(62,-79,0),spd:300
+
+2021-05-31 16:21:16,817 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(4986, 3944, 804) DIR:(46, -89, 0) SPD:300
+2021-05-31 16:21:16,818 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(4986,3944,804),dir:(46,-89,0),spd:300
+
+2021-05-31 16:21:17,922 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5118, 3680, 804) DIR:(29, -96, 0) SPD:300
+2021-05-31 16:21:17,923 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(5118,3680,804),dir:(29,-96,0),spd:300
+
+2021-05-31 16:21:18,072 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5127, 3635, 804) DIR:(11, -99, 0) SPD:300
+2021-05-31 16:21:18,073 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(5127,3635,804),dir:(11,-99,0),spd:300
+
+2021-05-31 16:21:18,175 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5133, 3605, 804) DIR:(-8, -100, 0) SPD:300
+2021-05-31 16:21:18,175 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(5133,3605,804),dir:(-8,-100,0),spd:300
+
+2021-05-31 16:21:18,257 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5133, 3580, 804) DIR:(-25, -97, 0) SPD:300
+2021-05-31 16:21:18,257 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(5133,3580,804),dir:(-25,-97,0),spd:300
+
+2021-05-31 16:21:18,340 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5128, 3555, 804) DIR:(-42, -91, 0) SPD:300
+2021-05-31 16:21:18,341 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(5128,3555,804),dir:(-42,-91,0),spd:300
+
+2021-05-31 16:21:18,439 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5116, 3525, 804) DIR:(-60, -80, 0) SPD:300
+2021-05-31 16:21:18,439 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(5116,3525,804),dir:(-60,-80,0),spd:300
+
+2021-05-31 16:21:18,539 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5098, 3501, 804) DIR:(-75, -66, 0) SPD:300
+2021-05-31 16:21:18,539 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(5098,3501,804),dir:(-75,-66,0),spd:300
+
+2021-05-31 16:21:18,622 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5078, 3486, 804) DIR:(-86, -52, 0) SPD:300
+2021-05-31 16:21:18,623 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(5078,3486,804),dir:(-86,-52,0),spd:300
+
+2021-05-31 16:21:18,721 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5054, 3468, 804) DIR:(-94, -33, 0) SPD:300
+2021-05-31 16:21:18,721 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(5054,3468,804),dir:(-94,-33,0),spd:300
+
+2021-05-31 16:21:18,804 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5029, 3458, 804) DIR:(-99, -16, 0) SPD:300
+2021-05-31 16:21:18,805 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(5029,3458,804),dir:(-99,-16,0),spd:300
+
+2021-05-31 16:21:18,903 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(4999, 3452, 804) DIR:(-100, 5, 0) SPD:300
+2021-05-31 16:21:18,904 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(4999,3452,804),dir:(-100,5,0),spd:300
+
+2021-05-31 16:21:19,005 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(4969, 3452, 804) DIR:(-97, 25, 0) SPD:300
+2021-05-31 16:21:19,006 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(4969,3452,804),dir:(-97,25,0),spd:300
+
+2021-05-31 16:21:19,092 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(4944, 3457, 804) DIR:(-91, 42, 0) SPD:300
+2021-05-31 16:21:19,093 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(4944,3457,804),dir:(-91,42,0),spd:300
+
+2021-05-31 16:21:19,185 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(4914, 3469, 804) DIR:(-80, 60, 0) SPD:300
+2021-05-31 16:21:19,186 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(4914,3469,804),dir:(-80,60,0),spd:300
+
+2021-05-31 16:21:19,293 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(4890, 3487, 804) DIR:(-66, 75, 0) SPD:300
+2021-05-31 16:21:19,294 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(4890,3487,804),dir:(-66,75,0),spd:300
+
+2021-05-31 16:21:19,367 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(4875, 3507, 804) DIR:(-52, 86, 0) SPD:300
+2021-05-31 16:21:19,368 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(4875,3507,804),dir:(-52,86,0),spd:300
+
+2021-05-31 16:21:19,467 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(4857, 3531, 804) DIR:(-33, 94, 0) SPD:300
+2021-05-31 16:21:19,468 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(4857,3531,804),dir:(-33,94,0),spd:300
+
+2021-05-31 16:21:19,551 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(4847, 3556, 804) DIR:(-16, 99, 0) SPD:300
+2021-05-31 16:21:19,552 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(4847,3556,804),dir:(-16,99,0),spd:300
+
+2021-05-31 16:21:19,635 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(4842, 3581, 804) DIR:(-16, 99, 0) SPD:0
+2021-05-31 16:21:19,636 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:Idle entity:(11:pos:(4842,3581,804),dir:(-16,99,0),spd:0
+
+2021-05-31 16:21:19,652 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(4842, 3581, 804) DIR:(5, 100, 0) SPD:0
+2021-05-31 16:21:19,652 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(4842,3581,804),dir:(5,100,0),spd:0
+
+2021-05-31 16:21:19,751 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(4842, 3581, 804) DIR:(25, 97, 0) SPD:0
+2021-05-31 16:21:19,752 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(4842,3581,804),dir:(25,97,0),spd:0
+
+2021-05-31 16:21:19,835 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(4842, 3581, 804) DIR:(42, 91, 0) SPD:0
+2021-05-31 16:21:19,835 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(4842,3581,804),dir:(42,91,0),spd:0
+
+2021-05-31 16:21:19,934 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(4842, 3581, 804) DIR:(60, 80, 0) SPD:0
+2021-05-31 16:21:19,935 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(4842,3581,804),dir:(60,80,0),spd:0
+
+2021-05-31 16:21:20,018 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(4842, 3581, 804) DIR:(60, 80, 0) SPD:300
+2021-05-31 16:21:20,019 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:MoveFwd entity:(11:pos:(4842,3581,804),dir:(60,80,0),spd:300
+
+2021-05-31 16:21:20,042 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(4845, 3585, 804) DIR:(75, 66, 0) SPD:300
+2021-05-31 16:21:20,044 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(4845,3585,804),dir:(75,66,0),spd:300
+
+2021-05-31 16:21:20,126 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(4865, 3600, 804) DIR:(85, 52, 0) SPD:300
+2021-05-31 16:21:20,126 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(4865,3600,804),dir:(85,52,0),spd:300
+
+2021-05-31 16:21:20,250 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(4893, 3621, 804) DIR:(94, 35, 0) SPD:300
+2021-05-31 16:21:20,251 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(4893,3621,804),dir:(94,35,0),spd:300
+
+2021-05-31 16:21:20,782 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5053, 3685, 804) DIR:(86, 52, 0) SPD:300
+2021-05-31 16:21:20,783 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(5053,3685,804),dir:(86,52,0),spd:300
+
+2021-05-31 16:21:20,880 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5077, 3703, 804) DIR:(73, 68, 0) SPD:300
+2021-05-31 16:21:20,881 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(5077,3703,804),dir:(73,68,0),spd:300
+
+2021-05-31 16:21:20,983 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5101, 3721, 804) DIR:(58, 81, 0) SPD:300
+2021-05-31 16:21:20,983 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(5101,3721,804),dir:(58,81,0),spd:300
+
+2021-05-31 16:21:21,132 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5128, 3757, 804) DIR:(43, 90, 0) SPD:300
+2021-05-31 16:21:21,134 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(5128,3757,804),dir:(43,90,0),spd:300
+
+2021-05-31 16:21:21,465 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5168, 3857, 804) DIR:(43, 90, 0) SPD:0
+2021-05-31 16:21:21,466 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:Idle entity:(11:pos:(5168,3857,804),dir:(43,90,0),spd:0
+
+2021-05-31 16:21:21,481 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5188, 3809, 804) DIR:(43, 90, 0) SPD:0
+2021-05-31 16:21:21,482 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(5188,3809,804),dir:(43,90,0),spd:0
+
+2021-05-31 16:21:23,318 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5188, 3809, 804) DIR:(26, 97, 0) SPD:0
+2021-05-31 16:21:23,319 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(5188,3809,804),dir:(26,97,0),spd:0
+
+2021-05-31 16:21:23,434 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5188, 3809, 804) DIR:(6, 100, 0) SPD:0
+2021-05-31 16:21:23,435 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(5188,3809,804),dir:(6,100,0),spd:0
+
+2021-05-31 16:21:23,467 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5188, 3809, 804) DIR:(6, 100, 0) SPD:300
+2021-05-31 16:21:23,468 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:MoveFwd entity:(11:pos:(5188,3809,804),dir:(6,100,0),spd:300
+
+2021-05-31 16:21:23,550 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5188, 3834, 804) DIR:(-12, 99, 0) SPD:300
+2021-05-31 16:21:23,551 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(5188,3834,804),dir:(-12,99,0),spd:300
+
+2021-05-31 16:21:24,713 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5118, 4184, 804) DIR:(7, 100, 0) SPD:300
+2021-05-31 16:21:24,713 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(5118,4184,804),dir:(7,100,0),spd:300
+
+2021-05-31 16:21:24,771 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5118, 4199, 804) DIR:(7, 100, 0) SPD:0
+2021-05-31 16:21:24,771 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:Idle entity:(11:pos:(5118,4199,804),dir:(7,100,0),spd:0
+
+2021-05-31 16:21:24,804 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5118, 4199, 804) DIR:(24, 97, 0) SPD:0
+2021-05-31 16:21:24,804 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(5118,4199,804),dir:(24,97,0),spd:0
+
+2021-05-31 16:21:24,888 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5118, 4199, 804) DIR:(41, 91, 0) SPD:0
+2021-05-31 16:21:24,889 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(5118,4199,804),dir:(41,91,0),spd:0
+
+2021-05-31 16:21:24,988 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5118, 4199, 804) DIR:(59, 81, 0) SPD:0
+2021-05-31 16:21:24,989 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(5118,4199,804),dir:(59,81,0),spd:0
+
+2021-05-31 16:21:25,071 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5118, 4199, 804) DIR:(72, 69, 0) SPD:0
+2021-05-31 16:21:25,072 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(5118,4199,804),dir:(72,69,0),spd:0
+
+2021-05-31 16:21:25,170 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5118, 4199, 804) DIR:(85, 53, 0) SPD:0
+2021-05-31 16:21:25,171 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(5118,4199,804),dir:(85,53,0),spd:0
+
+2021-05-31 16:21:25,252 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5118, 4199, 804) DIR:(93, 37, 0) SPD:0
+2021-05-31 16:21:25,253 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(5118,4199,804),dir:(93,37,0),spd:0
+
+2021-05-31 16:21:25,353 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5118, 4199, 804) DIR:(99, 17, 0) SPD:0
+2021-05-31 16:21:25,354 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(5118,4199,804),dir:(99,17,0),spd:0
+
+2021-05-31 16:21:25,452 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5118, 4199, 804) DIR:(100, -4, 0) SPD:0
+2021-05-31 16:21:25,453 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(5118,4199,804),dir:(100,-4,0),spd:0
+
+2021-05-31 16:21:25,551 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5118, 4199, 804) DIR:(97, -24, 0) SPD:0
+2021-05-31 16:21:25,552 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(5118,4199,804),dir:(97,-24,0),spd:0
+
+2021-05-31 16:21:25,634 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5118, 4199, 804) DIR:(91, -41, 0) SPD:0
+2021-05-31 16:21:25,635 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(5118,4199,804),dir:(91,-41,0),spd:0
+
+2021-05-31 16:21:25,734 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5118, 4199, 804) DIR:(81, -59, 0) SPD:0
+2021-05-31 16:21:25,734 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(5118,4199,804),dir:(81,-59,0),spd:0
+
+2021-05-31 16:21:25,816 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5118, 4199, 804) DIR:(69, -72, 0) SPD:0
+2021-05-31 16:21:25,817 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(5118,4199,804),dir:(69,-72,0),spd:0
+
+2021-05-31 16:21:25,916 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5118, 4199, 804) DIR:(53, -85, 0) SPD:0
+2021-05-31 16:21:25,917 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(5118,4199,804),dir:(53,-85,0),spd:0
+
+2021-05-31 16:21:26,033 [ 1] INFO  Unity: OnEntityChanged: ID:11 POS:(5118, 4199, 804) DIR:(37, -93, 0) SPD:0
+2021-05-31 16:21:26,034 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys:1
+    [11]evt:None entity:(11:pos:(5118,4199,804),dir:(37,-93,0),spd:0
+
+2021-05-31 16:21:31,088 [ 1] INFO  Unity: Character_11_女骑士 OnDestroy :ID:11 POS:(5118, 4199, 804) DIR:(37, -93, 0) SPD:0 
+2021-05-31 16:21:31,089 [ 1] INFO  Unity: Character_12_光敏之神 OnDestroy :ID:12 POS:(5205, 4000, 820) DIR:(74, -67, 0) SPD:0 
+2021-05-31 16:21:31,092 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2021-05-31 16:21:31,093 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:178)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:173)

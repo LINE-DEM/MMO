@@ -210,8 +210,10 @@ namespace GameServer.Services
         public void CharacterLeave(Character character)
         {
             CharacterManager.Instance.RemoveCharacter(character.Id);
-            MapManager.Instance[character.Info.mapId].CharacterLeave(character);
+            //先离开再发消息
             character.Clear();
+            MapManager.Instance[character.Info.mapId].CharacterLeave(character);
+         
         }
     }
 }

@@ -65,6 +65,8 @@ public class UITeam : MonoBehaviour {
 			"确定", "取消").OnYes = () =>
 			{
 				//TeamService.Instance.SendTeamLeaveRquest(User.Instance.TeamInfo.Id);
+				//TeamService.Instance
+				TeamService.Instance.SendTeamLeaveRquest(User.Instance.TeamInfo.Id);
 			};
 	}
 }

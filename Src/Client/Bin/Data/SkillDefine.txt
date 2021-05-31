@@ -1,0 +1,50 @@
+{
+  "1": {
+    "ID": 1,
+    "Description": "冲向敌人的脑壳并且打爆",
+    "Status": 1,
+    "Cost": 100
+  },
+  "2": {
+    "ID": 2,
+    "Description": "把剑放飞 还它自由",
+    "Status": 0,
+    "Cost": 101
+  },
+  "3": {
+    "ID": 3,
+    "Description": "打爆敌人的脑壳",
+    "Status": 0,
+    "Cost": 102
+  },
+  "4": {
+    "ID": 4,
+    "Description": "阿勒泰万岁！！！！！！！！",
+    "Status": 0,
+    "Cost": 103
+  },
+  "5": {
+    "ID": 5,
+    "Description": "欢乐时光就要开始了0_0~",
+    "Status": 1,
+    "Cost": 104
+  },
+  "6": {
+    "ID": 6,
+    "Description": "扔出盾牌 砸向敌人",
+    "Status": 0,
+    "Cost": 105
+  },
+  "7": {
+    "ID": 7,
+    "Description": "脑白金真好吃***",
+    "Status": 0,
+    "Cost": 106
+  },
+  "8": {
+    "ID": 8,
+    "Description": "2哦83 哑炮的hi发射东风",
+    "Status": 0,
+    "Cost": 107
+  }
+}

@@ -34,6 +34,7 @@ namespace GameServer
             QuestService.Instance.Init();
             FriendService.Instance.Init();
             SkillService.Instance.Init();
+            TeamService.Instance.Init();
             thread = new Thread(new ThreadStart(this.Update));
 
             return true;

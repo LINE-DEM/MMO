@@ -1,6 +1,7 @@
 ﻿using Common.Data;
 using GameServer.Core;
 using GameServer.Managers;
+using GameServer.Models;
 using GameServer.Network;
 using SkillBridge.Message;
 using System;
@@ -22,6 +23,10 @@ namespace GameServer.Entities
         public StatusManager StatusManager;
         public FriendManager FriendManager;
         public SkillManager SkillManger;
+
+        //需要注意Team没有DB 角色下线就没了
+        public Team Team;
+        public int TeamUpdateTS;
         //通过 表格数据创建Character
         public Character(CharacterType type,TCharacter cha):
             base(new Core.Vector3Int(cha.MapPosX, cha.MapPosY, cha.MapPosZ),new Core.Vector3Int(100,0,0))
@@ -74,12 +79,20 @@ namespace GameServer.Entities
         }
 
         /// <summary>
-        /// 后处理入口
+        /// 后处理入口!!!!!!!!
         /// </summary>
         /// <param name="message"></param>
         public void PostProcess(NetMessageResponse message)
         {
             this.FriendManager.PostProcess(message);
+            if(this.Team!=null)
+            if (TeamUpdateTS < this.Team.timestamp)
+            {
+                TeamUpdateTS = Team.timestamp;
+                this.Team.PostProcess(message);
+            }
+
+
             if (this.StatusManager.HasStatus)
             {
                 this.StatusManager.PostProcess(message);
@@ -91,7 +104,19 @@ namespace GameServer.Entities
         /// </summary>
         public void Clear()
         {
-            this.FriendManager.UpdateFriendInfo(this.Info, 0);
+            this.FriendManager.OffLineNotify();
+        }
+
+        public NCharacterInfo GetBasicInfo()
+        {
+            return new NCharacterInfo()
+            {
+                Id = this.Id,
+                Name = this.Info.Name,
+                Class = this.Info.Class,
+                Level = this.Info.Level
+
+            };
         }
     }
 }

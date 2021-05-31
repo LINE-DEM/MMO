@@ -147,6 +147,18 @@ namespace GameServer.Managers
             this.friendChanged = true;
         }
 
+        public void OffLineNotify()
+        {
+            foreach (var friendInfo in this.friends)
+            {
+                var friend = CharacterManager.Instance.GetCharacter(friendInfo.friendInfo.Id);
+                if (friend != null)
+                {
+                    friend.FriendManager.UpdateFriendInfo(this.Owner.Info, 0);
+                }
+            }
+        }
+
         public void PostProcess(NetMessageResponse message)
         {
             if (friendChanged)

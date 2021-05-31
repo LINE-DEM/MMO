@@ -1,6 +1,6 @@
 WindowsStandalone
 PlayerPath?
-D:/mmorpg/WorkSpace/Src/Client/Bin/ExtremeWorld.exe
+D:/2.My Git Hub/MMO/Src/Client/Bin/ExtremeWorld.exe
 SceneListBegin?
 Assets/Levels/Loading.unity
 Assets/Levels/CharSelect.unity
@@ -138,6 +138,7 @@ e1ea12ca952c81d81a9a21fdf34446ed UnityEngine.HoloLens.dll:UnityEngine.EventSyste
 98d69a140ec0084cde3b6a5e09aea295 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 dfd33ff9ae3ce8d7ca1f22b475ec2387 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 96f3ea9f23b6f08e60710ebb4af49174 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
+23a7ba64f3b62c7708a9b449dd8ab41b Assembly-CSharp.dll:.UISkillItem
 81213febbdc4db2fb4cd6e58b4d9ae01 Assembly-CSharp.dll:.MapController
 543aa37fbe66d63884d8cadda1f7c489 Assembly-CSharp.dll:.UIQuestDialog
 510010a657bde55f21c44a71043d3439 Assembly-CSharp.dll:.SpawnPoint
@@ -165,10 +166,12 @@ da21fc3f8056b1f91c3dd09c7bf4f90a UnityEngine.Networking.dll:UnityEngine.Networki
 fc061f3ae8a876c0687e86378d4a447c UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 7ca56e063bd071986fff4f513cc4f477 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 3334dcc4680e06f9ebe09cc8c238fd42 Assembly-CSharp.dll:.UIFriends
+3013b115018d24fa5c8c90e8bc072b8b Assembly-CSharp.dll:.UITeam
 72a8523b432c0a5317826b7a9e0a0e79 Unity.TextMeshPro.dll:TMPro.PackageResourceImporterWindow
 24d4b059645b7c16904aa80c060c4efb Assembly-CSharp.dll:.UIQuestItem
 e53cc67d84060d628c7f03fc725766d8 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
 392c5b921098bd4c139d9146d0efa6d7 Unity.TextMeshPro.dll:TMPro.TMP_Settings
+cbaad43010219a6c960c3354b09e88de Assembly-CSharp.dll:.SpriteManager
 486cd95c82d8305219c352c06b776e1f UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 e033f131358cea5a0eabf9561e781deb UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 9d863b523b577f5c3d915351a74cd338 UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
@@ -182,6 +185,7 @@ e033f131358cea5a0eabf9561e781deb UnityEngine.TestRunner.dll:UnityEngine.TestTool
 28a95668dd28649297d595834fe8417e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
 28a95668dd28649297d595834fe8417e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
 8ecfe5dc63aeb789bb4f8943d19133e0 Assembly-CSharp.dll:.UIIconItem
+f05f7e034f09002eea3d6378be02359a Assembly-CSharp.dll:.UITeamItem
 486cd95c82d8305219c352c06b776e1f UnityEngine.PerformanceTesting.dll:UnityEngine.PerformanceTesting.FrameTimeMeasurement
 d75dc834c5dec688db75a55a1724c90f UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 486cd95c82d8305219c352c06b776e1f UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
@@ -192,7 +196,7 @@ aac9c55ae7ba4b95b852a7d9c191acd1 Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 47122fc7074b87678ebaf3cf1bf37ee1 Assembly-CSharp.dll:.PlayerInputController
 0a006f3734181ba8b26758f0866152c0 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 eb7c14f060d3d1b1f52cc9d366f81dd8 Assembly-CSharp.dll:.UINameBar
-f0191f92d94ad657a899495ca45708b9 Assembly-CSharp.dll:.UIMain
+43012e0b5bb7e2ef9cf1674e21d3e6f2 Assembly-CSharp.dll:.UIMain
 2a14fbce384016fed86622947fdb563f Assembly-CSharp.dll:.UITest
 510010a657bde55f21c44a71043d3439 Assembly-CSharp.dll:.TeleporterObject
 20458b40819424758b8f5c36693ff9f9 Assembly-CSharp.dll:.UIQuestStatus
@@ -202,7 +206,6 @@ e3cfb4fdcbf77036ddf06a2916e8ebd8 Assembly-CSharp.dll:.MainPlayerCamera
 4306b49eb56ed4dcc8d69307f416ffee Assembly-CSharp.dll:.NpcController
 2f9af06a78208a67db480e9bfed4a076 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 9318334b30e9f195f573b2ce00154b95 Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
-486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.Login
 c67761199ae3d14f8d01f4f35054dcdf Assembly-CSharp.dll:.GameObjectManager
 cc2eb6db62e6ff8484965dcc4272e8cb Assembly-CSharp.dll:.UIQuestInfo
 93307bd34e39d73fd24e00ec39c25a91 Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
@@ -210,5 +213,6 @@ cc2eb6db62e6ff8484965dcc4272e8cb Assembly-CSharp.dll:.UIQuestInfo
 6b207158da1e1dfad4e5139b636adc4b Assembly-CSharp.dll:.UIQuestSystem
 bfb701695e3f9ba8ab648cfc79fd7498 Assembly-CSharp.dll:.ListView
 6c78d49b6215b68157c61ff9f2c79a1b Assembly-CSharp.dll:.TabView
+569c10f05fa352922a826686c4e085b6 Assembly-CSharp.dll:.UISkills
 8ded285d4a3255ea308a704bbb25043c Assembly-CSharp.dll:.UIInputBox
 3cd237eb0ceac2c77ba72f99348881cf Assembly-CSharp.dll:.UIShopItem
